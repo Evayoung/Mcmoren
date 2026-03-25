@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | Mcmoren Multiservices Limited</title>
+  <meta name="description" content="Mcmoren Multiservices offers transport & logistics, customs brokerage & freight forwarding, and fashion & carpentry through McAdur Imaginations. Nigeria's full-service multiservices company.">
+  <meta name="keywords" content="transport logistics Nigeria, customs brokerage Nigeria, freight forwarding Lagos, McAdur Imaginations, fashion carpentry Nigeria">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.mcmorenmultiservices.com/services">
+  <meta property="og:title" content="Our Services | Mcmoren Multiservices Limited">
+  <meta property="og:description" content="Transport & Logistics, Customs Brokerage & Freight Forwarding, and Fashion & Carpentry through McAdur Imaginations.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mcmorenmultiservices.com/services">
+  <meta property="og:site_name" content="Mcmoren Multiservices Limited">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/pages/services.css">
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header>
+    <nav class="nav" id="main-nav" aria-label="Main navigation">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo" aria-label="Mcmoren Multiservices Limited — Home" style="display: flex; align-items: center; gap: 0.75rem;">
+          <div class="nav-logo-card" style="width: 40px; height: 40px; border-radius: 50%; background: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+            <img src="assets/images/MM_logo.png" alt="Mcmoren Logo" style="width: 28px; height: auto; object-fit: contain;">
+          </div>
+          <div>
+            <span class="nav__logo-main" style="display: block;">MCMOREN</span>
+            <span class="nav__logo-sub" style="display: block;">Multiservices Ltd</span>
+          </div>
+        </a>
+        <div class="nav__links" role="menubar">
+          <a href="index.html" class="nav__link" role="menuitem">Home</a>
+          <a href="about.html" class="nav__link" role="menuitem">About</a>
+          <a href="services.html" class="nav__link nav__link--active" role="menuitem">Services</a>
+          <a href="teams.html" class="nav__link" role="menuitem">Team</a>
+          <a href="media.html" class="nav__link" role="menuitem">Media</a>
+          <a href="contact.html" class="nav__link" role="menuitem">Contact</a>
+        </div>
+        <a href="contact.html" class="btn btn--primary btn--sm nav__cta">Get In Touch</a>
+        <button class="nav__hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="nav__mobile-overlay" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+      <div class="nav__mobile-backdrop"></div>
+      <div class="nav__mobile-panel">
+        <a href="index.html" class="nav__mobile-link">Home</a>
+        <a href="about.html" class="nav__mobile-link">About</a>
+        <a href="services.html" class="nav__mobile-link">Services</a>
+        <a href="teams.html" class="nav__mobile-link">Team</a>
+        <a href="media.html" class="nav__mobile-link">Media</a>
+        <a href="contact.html" class="nav__mobile-link">Contact</a>
+        <div class="nav__mobile-cta"><a href="contact.html" class="btn btn--primary btn--full">Get In Touch</a></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- PAGE BANNER -->
+    <section class="page-banner" aria-label="Page header">
+      <div class="page-banner__bg" data-parallax="0.2" style="background-image: url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1600&auto=format&fit=crop&q=80');"></div>
+      <div class="page-banner__overlay"></div>
+      <div class="container page-banner__content">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html" class="breadcrumb__item">Home</a>
+          <span class="breadcrumb__sep" aria-hidden="true">/</span>
+          <span class="breadcrumb__item breadcrumb__item--active" aria-current="page">Services</span>
+        </nav>
+        <h1 class="page-banner__title">Our Services</h1>
+        <p class="page-banner__subtitle">Three integrated business divisions. One trusted partner for Nigerian enterprises and global traders alike.</p>
+      </div>
+    </section>
+
+    <!-- CATEGORY NAV -->
+    <div class="services-tab-nav" role="navigation" aria-label="Service categories">
+      <div class="container">
+        <div class="services-tab-nav__inner">
+          <a href="#transport-logistics" class="services-tab-nav__item">Transport & Logistics</a>
+          <a href="#customs-freight" class="services-tab-nav__item">Customs & Freight</a>
+          <a href="#mcadur" class="services-tab-nav__item">McAdur Imaginations</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== CATEGORY 1: TRANSPORT & LOGISTICS ===== -->
+    <section class="section services-category" id="transport-logistics" aria-labelledby="transport-heading">
+      <div class="container">
+        <div class="services-category__header">
+          <div class="services-category__icon-wrap" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+          </div>
+          <div>
+            <span class="overline reveal" data-delay="0">Division 01</span>
+            <h2 id="transport-heading" class="reveal" data-delay="80">Transport & Logistics</h2>
+          </div>
+        </div>
+        <p class="services-category__intro reveal" data-delay="120">
+          We operate a comprehensive road freight and logistics network across Nigeria, moving cargo safely and on schedule from ports and warehouses to their final destinations. Whether you need a single truck or a fleet-managed logistics partnership, our transport division delivers reliability at every kilometre.
+        </p>
+        <div class="service-cards-grid" style="margin-top: 2.5rem;">
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg></div>
+            <h3 class="card__title">Road Freight & Haulage</h3>
+            <p class="card__body">Nationwide road freight services covering all major Nigerian corridors. We transport bulk cargo, containers, machinery, and commercial goods with dedicated fleet capacity and full cargo documentation.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Request Haulage <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></div>
+            <h3 class="card__title">Last-Mile Delivery</h3>
+            <p class="card__body">Efficient delivery from distribution hubs to your customers' locations. We handle the critical final segment of the supply chain — ensuring goods arrive on time, intact, and correctly documented for recipient sign-off.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Enquire Now <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg></div>
+            <h3 class="card__title">Container Logistics</h3>
+            <p class="card__body">Full container load (FCL) and less-than-container load (LCL) transport from Nigerian ports to inland destinations. We coordinate container collection, customs clearance handoff, and final delivery in one seamless operation.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Get a Quote <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="21 16 21 21 16 21"></polyline><line x1="15" y1="15" x2="21" y2="21"></line></svg></div>
+            <h3 class="card__title">Contract Logistics</h3>
+            <p class="card__body">Long-term logistics contracts for businesses with recurring freight requirements. We provide dedicated fleet arrangement, account management, volume pricing, and SLA-based delivery commitments tailored to your operation.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Discuss Contract <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+            <h3 class="card__title">Fleet Management Services</h3>
+            <p class="card__body">For businesses operating their own transport fleets, we offer professional fleet management support — including scheduling, maintenance coordination, driver oversight, and compliance with Nigerian road transport regulations.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Learn More <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CATEGORY 2: CUSTOMS BROKERAGE & FREIGHT FORWARDING ===== -->
+    <section class="section section--white services-category" id="customs-freight" aria-labelledby="customs-heading">
+      <div class="container">
+        <div class="services-category__header">
+          <div class="services-category__icon-wrap" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          </div>
+          <div>
+            <span class="overline reveal" data-delay="0">Division 02</span>
+            <h2 id="customs-heading" class="reveal" data-delay="80">Customs Brokerage & Freight Forwarding</h2>
+          </div>
+        </div>
+        <p class="services-category__intro reveal" data-delay="120">
+          International trade into and out of Nigeria carries layers of regulatory complexity — from Form M filings and pre-arrival assessments to coordinating with SON, NAFDAC, and the Nigerian Customs Service. Mcmoren provides expert customs brokerage and freight forwarding services that ensure your goods clear without delay, penalty, or compliance exposure.
+        </p>
+        <div class="service-cards-grid" style="margin-top: 2.5rem;">
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg></div>
+            <h3 class="card__title">Customs Clearance</h3>
+            <p class="card__body">End-to-end customs clearance at Nigerian ports of entry. We prepare and file declarations, manage duty assessment, liaise with NCS officers, and coordinate physical examination and cargo release promptly and correctly.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Start Clearance <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></div>
+            <h3 class="card__title">International Freight Forwarding</h3>
+            <p class="card__body">We arrange sea and air freight on your behalf — booking space with carriers, managing bill of lading or airway bill documentation, and coordinating the movement of goods across key trade corridors including Asia, Europe, and the Americas.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Get Freight Quote <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg></div>
+            <h3 class="card__title">Form M & Import Documentation</h3>
+            <p class="card__body">Complete management of all Form M processing, Combined Certificate of Value and Origin, PAAR, and agency-specific approvals for regulated goods. We prepare, submit, and track all documentation so your import never stalls on paperwork.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Get Documentation Help <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 7 12 2 21 7"></polyline><polyline points="3 12 12 7 21 12"></polyline><line x1="3" y1="17" x2="3" y2="12"></line><line x1="21" y1="17" x2="21" y2="12"></line><line x1="12" y1="22" x2="12" y2="17"></line></svg></div>
+            <h3 class="card__title">Export Documentation</h3>
+            <p class="card__body">We manage the full documentation set for Nigerian exports — licences, standards compliance certificates, phytosanitary certificates, and commercial documentation for receiving countries, ensuring your exports clear Nigerian ports efficiently.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Enquire About Exports <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+            <h3 class="card__title">Trade Advisory</h3>
+            <p class="card__body">Expert advisory for businesses entering new import or export markets — tariff classification, regulatory obligations, shipping terms, and duty minimisation strategies. We help you trade smarter and stay protected from compliance risk.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Request Advisory <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CATEGORY 3: McADUR IMAGINATIONS ===== -->
+    <section class="section section--dark services-category" id="mcadur" aria-labelledby="mcadur-heading">
+      <div class="container">
+        <div class="services-category__header services-category__header--light">
+          <div class="services-category__icon-wrap services-category__icon-wrap--accent" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+          </div>
+          <div>
+            <span class="overline reveal" data-delay="0">Division 03</span>
+            <h2 id="mcadur-heading" class="text-white reveal" data-delay="80">Fashion & Carpentry</h2>
+            <p class="mcadur-brand reveal" data-delay="120">McAdur Imaginations</p>
+          </div>
+        </div>
+        <p class="services-category__intro services-category__intro--light reveal" data-delay="160">
+          McAdur Imaginations is the creative division of Mcmoren Multiservices Limited — dedicated to bespoke fashion, artisan carpentry, and the development of skilled Nigerian creatives. Through design, training, and craftsmanship, McAdur is building a legacy of creative excellence rooted in Nigerian identity and global standards.
+        </p>
+        <div class="service-cards-grid" style="margin-top: 2.5rem;">
+          <article class="card card--service card--service-dark">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.57a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.57a2 2 0 0 0-1.34-2.23z"></path></svg></div>
+            <h3 class="card__title">Bespoke Fashion & Tailoring</h3>
+            <p class="card__body">Custom-made garments crafted to precise client specification — from corporate attire and occasion wear to traditional and contemporary designs. Every piece is constructed with attention to detail, quality materials, and a distinctly Nigerian creative identity.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Commission a Piece <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+          <article class="card card--service card--service-dark">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg></div>
+            <h3 class="card__title">Fashion Design Training</h3>
+            <p class="card__body">A structured training programme for aspiring fashion designers — covering pattern making, garment construction, fabric selection, and design principles. We develop technically skilled, business-ready fashion professionals equipped for the modern creative economy.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Enrol in Training <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+          <article class="card card--service card--service-dark">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg></div>
+            <h3 class="card__title">Custom Furniture & Carpentry</h3>
+            <p class="card__body">Bespoke furniture and interior carpentry for residential and commercial clients — from handcrafted wardrobes and statement tables to full room fitouts. McAdur's carpenters bring both traditional craftsmanship and contemporary design sensibility to every commission.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Commission Furniture <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+          <article class="card card--service card--service-dark">
+            <div class="card__icon" aria-hidden="true"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+            <h3 class="card__title">Carpentry Training Programme</h3>
+            <p class="card__body">Hands-on carpentry training for beginners and intermediate practitioners — covering joinery, wood finishing, furniture design, and workshop safety. Graduates leave with practical skills, a portfolio, and the foundation for a sustainable craft career.</p>
+            <hr class="card__divider">
+            <a href="contact.html" class="card__link">Join the Programme <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner" aria-labelledby="services-cta-heading">
+      <div class="container cta-banner__content">
+        <h2 id="services-cta-heading" class="reveal" data-delay="0">Ready to work with us?</h2>
+        <p class="cta-banner__sub reveal" data-delay="100">Tell us about your requirements and we'll match you to the right service division and team.</p>
+        <a href="contact.html" class="btn btn--primary btn--lg reveal" data-delay="200">Start a Conversation</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="footer__main">
+      <div class="container">
+        <div class="footer__grid">
+          <div>
+            <a href="index.html" aria-label="Mcmoren Multiservices Limited — Home"><span class="footer__logo-main">MCMOREN</span><span class="footer__logo-sub">Multiservices Limited</span></a>
+            <p class="footer__tagline">Moving Cargo. Powering Industry. Connecting Markets.</p>
+            <div class="footer__social" aria-label="Social media links">
+              <a href="#" class="footer__social-link" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+              <a href="#" class="footer__social-link" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+              <a href="#" class="footer__social-link" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+            </div>
+          </div>
+          <div><h4 class="footer__col-title">Quick Links</h4><ul class="footer__links"><li><a href="index.html" class="footer__link">Home</a></li><li><a href="about.html" class="footer__link">About Us</a></li><li><a href="teams.html" class="footer__link">Our Team</a></li><li><a href="media.html" class="footer__link">Media</a></li><li><a href="contact.html" class="footer__link">Contact</a></li></ul></div>
+          <div><h4 class="footer__col-title">Services</h4><ul class="footer__links"><li><a href="services.html#transport-logistics" class="footer__link">Transport & Logistics</a></li><li><a href="services.html#customs-freight" class="footer__link">Customs & Freight Forwarding</a></li><li><a href="services.html#mcadur" class="footer__link">McAdur Imaginations</a></li></ul></div>
+          <div>
+            <h4 class="footer__col-title">Contact</h4>
+            <div class="footer__contact-item"><svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg><span>14 Industrial Avenue, Apapa, Lagos, Nigeria</span></div>
+            <div class="footer__contact-item"><svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.09-.43c.907.339 1.850.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span>+234 800 000 0000</span></div>
+            <div class="footer__contact-item"><svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><span>info@mcmorenmultiservices.com</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom"><div class="container"><div class="footer__bottom-inner"><p class="footer__copyright">© 2025 Mcmoren Multiservices Limited. All rights reserved.</p><p class="footer__credit">Developed by Olorundare Micheal</p></div></div></div>
+  </footer>
+
+  <script type="module" src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/gsap-init.js"></script>
+</body>
+</html>

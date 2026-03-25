@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "segun-banji",
+    "name": "Segun Banji",
+    "role": "Managing Director & CEO",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+    "bio": "Segun Banji is the founder and Managing Director of Mcmoren Multiservices Limited, a company he established with a vision to bridge the gap between world-class service delivery and the Nigerian business environment. With over two decades of operational experience spanning logistics, international trade facilitation, and business management, Segun has built Mcmoren into a trusted name across multiple industry sectors.\n\nHis leadership philosophy is grounded in the TRICE values that define the organisation — Trust, Reliability, Integrity, Customer Satisfaction, and Excellence. Under his direction, Mcmoren has grown from a small freight operation into a full-service multiservices company with active engagement across transport, customs brokerage, freight forwarding, fashion, and carpentry through its McAdur Imaginations subsidiary.\n\nSegun is deeply committed to developing Nigerian enterprises, empowering local talent, and delivering service standards that compete at an international level. He holds professional certifications in logistics management and international trade, and continues to drive the company's expansion into new sectors and markets.",
+    "responsibilities": [
+      "Overall strategic direction and long-term planning for Mcmoren Multiservices Limited",
+      "Leadership of executive and senior management teams across all business units",
+      "Client and partner relationship management at the highest level",
+      "Oversight of all logistics, customs, and freight forwarding operations",
+      "Governance of the McAdur Imaginations fashion and carpentry division",
+      "Business development, new market entry, and key account acquisition",
+      "Ensuring organisational alignment with the company's TRICE values",
+      "Financial oversight and accountability to stakeholders"
+    ],
+    "linkedIn": "#",
+    "featured": true
+  },
+  {
+    "slug": "amaka-okafor",
+    "name": "Amaka Okafor",
+    "role": "Head of Operations",
+    "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=80",
+    "bio": "Amaka Okafor oversees all operational activities across Mcmoren's logistics and customs divisions. She brings over 12 years of field experience in Nigerian port operations and freight management, ensuring every shipment is executed efficiently and in full compliance with Nigerian Customs Service regulations.",
+    "responsibilities": [
+      "Day-to-day operations management across all logistics corridors",
+      "Team supervision for field operations and port clearance staff",
+      "SLA management and client delivery performance reporting",
+      "Process optimisation and operational standards enforcement",
+      "Liaison with NCS, NPA, and relevant regulatory authorities"
+    ],
+    "linkedIn": "#",
+    "featured": false
+  },
+  {
+    "slug": "chukwuemeka-eze",
+    "name": "Chukwuemeka Eze",
+    "role": "Customs & Compliance Manager",
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=80",
+    "bio": "Chukwuemeka Eze is a certified customs broker and trade compliance expert with extensive knowledge of Nigerian import and export regulations. He manages all documentation, duty assessment, and agency liaisons to ensure Mcmoren's clients face zero compliance exposure.",
+    "responsibilities": [
+      "Management of all Form M, PAAR, and customs declaration filings",
+      "Coordination with SON, NAFDAC, NESREA for regulated imports",
+      "Duty optimisation and tariff classification advisory",
+      "Staff training on customs compliance and procedural updates",
+      "Risk assessment for new trade corridors and commodity types"
+    ],
+    "linkedIn": "#",
+    "featured": false
+  },
+  {
+    "slug": "fatima-ibrahim",
+    "name": "Fatima Ibrahim",
+    "role": "Head, McAdur Imaginations",
+    "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=500&auto=format&fit=crop&q=80",
+    "bio": "Fatima Ibrahim leads the McAdur Imaginations division — the creative heart of Mcmoren Multiservices. A trained fashion designer and textile expert, she oversees both production and training programmes in bespoke fashion and custom carpentry, developing skilled creatives across Nigeria.",
+    "responsibilities": [
+      "Creative direction and product quality for all McAdur bespoke fashion outputs",
+      "Management of fashion design and carpentry training programmes",
+      "Client consultation for custom garment and furniture commissions",
+      "Sourcing of materials and artisan partnerships",
+      "Building the McAdur brand in the creative economy"
+    ],
+    "linkedIn": "#",
+    "featured": false
+  },
+  {
+    "slug": "daniel-okonkwo",
+    "name": "Daniel Okonkwo",
+    "role": "Fleet & Logistics Coordinator",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&auto=format&fit=crop&q=80",
+    "bio": "Daniel Okonkwo manages Mcmoren's nationwide fleet operations and inter-city freight scheduling. His expertise in route optimisation and fleet management ensures cargo moves efficiently from port to final destination, even across Nigeria's most challenging delivery corridors.",
+    "responsibilities": [
+      "Fleet scheduling, dispatch, and real-time tracking coordination",
+      "Driver management, welfare, and compliance with transport regulations",
+      "Route planning for high-volume and time-critical freight movements",
+      "Vehicle maintenance oversight and fleet renewal planning",
+      "Partnership management with third-party transport providers"
+    ],
+    "linkedIn": "#",
+    "featured": false
+  },
+  {
+    "slug": "ngozi-adeyemi",
+    "name": "Ngozi Adeyemi",
+    "role": "Client Relations Manager",
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=500&auto=format&fit=crop&q=80",
+    "bio": "Ngozi Adeyemi is the first point of contact for all Mcmoren clients, ensuring every engagement starts with clarity and confidence. She manages client onboarding, enquiry handling, and ongoing account management, translating complex logistics and trade requirements into clear, actionable plans.",
+    "responsibilities": [
+      "Client enquiry management and first-response coordination",
+      "Onboarding new clients and briefing operations teams",
+      "Account management and regular service performance updates",
+      "Resolution of client concerns and escalations",
+      "Collecting and acting on client feedback for service improvement"
+    ],
+    "linkedIn": "#",
+    "featured": false
+  }
+]

@@ -1,0 +1,182 @@
+/* ==========================================================================
+   layout.css — Container, grids, section spacing
+   Mcmoren Multiservices Limited
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Container
+   -------------------------------------------------------------------------- */
+.container {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Section Base Styles
+   -------------------------------------------------------------------------- */
+.section {
+  padding-top: var(--spacing-lg);
+  padding-bottom: var(--spacing-lg);
+  background-color: var(--color-bg);
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
+  }
+}
+
+.section--dark {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
+
+.section--darker {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-light);
+}
+
+.section--white {
+  background-color: var(--color-card-bg);
+}
+
+.section--accent {
+  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-light) 100%);
+  color: var(--color-text-light);
+}
+
+/* --------------------------------------------------------------------------
+   Section Header — centred block with overline, H2, optional subtext
+   -------------------------------------------------------------------------- */
+.section__header {
+  text-align: center;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+  .section__header {
+    margin-bottom: var(--spacing-lg);
+  }
+}
+
+.section__header--left {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section__subtitle {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+  margin-top: var(--spacing-xs);
+  line-height: 1.6;
+}
+
+.section--dark .section__subtitle,
+.section--darker .section__subtitle {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* --------------------------------------------------------------------------
+   Grid Systems
+   -------------------------------------------------------------------------- */
+
+/* Auto columns — equal width, responsive */
+.grid {
+  display: grid;
+  gap: var(--spacing-md);
+}
+
+.grid--2 {
+  grid-template-columns: 1fr;
+}
+
+.grid--3 {
+  grid-template-columns: 1fr;
+}
+
+.grid--4 {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .grid--2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid--3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid--4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Two-column split layout */
+.split {
+  display: grid;
+  gap: var(--spacing-md);
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .split {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.split--55-45 {
+  display: grid;
+  gap: var(--spacing-md);
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .split--55-45 {
+    grid-template-columns: 55fr 45fr;
+  }
+}
+
+/* Flex utilities */
+.flex {
+  display: flex;
+}
+
+.flex--center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex--between {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex--gap-sm { gap: var(--spacing-sm); }
+.flex--gap-md { gap: var(--spacing-md); }
+.flex--wrap   { flex-wrap: wrap; }

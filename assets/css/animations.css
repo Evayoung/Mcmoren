@@ -1,0 +1,278 @@
+/* ==========================================================================
+   animations.css — @keyframes, reveal classes, loader, transition utilities
+   Mcmoren Multiservices Limited
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Page Loader
+   -------------------------------------------------------------------------- */
+.page-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: var(--color-bg-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  animation: loaderFadeOut 0.5s ease 1.2s forwards;
+  pointer-events: none;
+}
+
+.page-loader__wordmark {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: var(--color-accent);
+  opacity: 0;
+  animation: loaderWordmark 0.7s ease 0.2s forwards;
+}
+
+.page-loader__sub {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 0.5rem;
+  opacity: 0;
+  animation: loaderWordmark 0.5s ease 0.55s forwards;
+}
+
+/* --------------------------------------------------------------------------
+   Scroll Reveal
+   -------------------------------------------------------------------------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  filter: blur(8px);
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+              filter 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal--visible {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+/* Stagger delays via data-delay attribute */
+.reveal[data-delay="0"]   { transition-delay: 0ms; }
+.reveal[data-delay="100"] { transition-delay: 100ms; }
+.reveal[data-delay="150"] { transition-delay: 150ms; }
+.reveal[data-delay="200"] { transition-delay: 200ms; }
+.reveal[data-delay="300"] { transition-delay: 300ms; }
+.reveal[data-delay="400"] { transition-delay: 400ms; }
+.reveal[data-delay="500"] { transition-delay: 500ms; }
+
+/* Reveal from left */
+.reveal--left {
+  opacity: 0;
+  transform: translateX(-50px);
+  filter: blur(8px);
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+              filter 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal--left.reveal--visible {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+/* Reveal from right */
+.reveal--right {
+  opacity: 0;
+  transform: translateX(50px);
+  filter: blur(8px);
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+              filter 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal--right.reveal--visible {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+/* --------------------------------------------------------------------------
+   Hero Text Animations — staggered word reveal
+   -------------------------------------------------------------------------- */
+.hero-word {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero-word--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Hero elements fade-in */
+.hero-fade {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.hero-fade--visible {
+  opacity: 1;
+}
+
+/* --------------------------------------------------------------------------
+   Float Animation (badge drift)
+   -------------------------------------------------------------------------- */
+.float-anim {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+/* --------------------------------------------------------------------------
+   Pulse Animation (CTA buttons)
+   -------------------------------------------------------------------------- */
+.pulse-anim {
+  animation: subtlePulse 2.5s ease-in-out infinite;
+}
+
+/* --------------------------------------------------------------------------
+   Scroll Indicator
+   -------------------------------------------------------------------------- */
+.scroll-indicator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.scroll-indicator__mouse {
+  width: 24px;
+  height: 38px;
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  padding-top: 6px;
+}
+
+.scroll-indicator__dot {
+  width: 4px;
+  height: 8px;
+  background-color: var(--color-accent);
+  border-radius: 2px;
+  animation: scrollDot 1.8s ease-in-out infinite;
+}
+
+.scroll-indicator__label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+/* --------------------------------------------------------------------------
+   Page Banner animation classes (applied by JS on load)
+   -------------------------------------------------------------------------- */
+.page-banner .animate-up {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+.page-banner.loaded .page-banner__title {
+  animation: slideUpFade 1s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+}
+
+.page-banner.loaded .page-banner__subtitle {
+  animation: slideUpFade 1s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+
+.page-banner.loaded .breadcrumb {
+  animation: fadeInEl 0.5s ease 0.3s both;
+}
+
+/* --------------------------------------------------------------------------
+   @keyframes
+   -------------------------------------------------------------------------- */
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes loaderFadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes loaderWordmark {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes floatUpDown {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
+}
+
+@keyframes subtlePulse {
+  0%, 100% { box-shadow: 0 8px 32px rgba(14, 165, 233, 0.25); }
+  50%       { box-shadow: 0 8px 40px rgba(14, 165, 233, 0.45); }
+}
+
+@keyframes scrollDot {
+  0%   { transform: translateY(0); opacity: 1; }
+  80%  { transform: translateY(10px); opacity: 0; }
+  81%  { transform: translateY(0); opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideUpFade {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInEl {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes bounceIn {
+  0%   { transform: scale(0.5); opacity: 0; }
+  70%  { transform: scale(1.05); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes drawUnderline {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+
+@keyframes particleDrift {
+  0%   { transform: translateY(0) translateX(0); }
+  33%  { transform: translateY(-20px) translateX(10px); }
+  66%  { transform: translateY(10px) translateX(-8px); }
+  100% { transform: translateY(0) translateX(0); }
+}
+
+/* --------------------------------------------------------------------------
+   Amber gradient bottom line (hero decoration)
+   -------------------------------------------------------------------------- */
+.hero-bottom-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    var(--color-accent) 20%,
+    var(--color-accent-light) 50%,
+    var(--color-accent) 80%,
+    transparent 100%);
+}

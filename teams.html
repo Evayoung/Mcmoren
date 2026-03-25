@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team | Mcmoren Multiservices Limited</title>
+  <meta name="description"
+    content="Meet the leadership and operations team at Mcmoren Multiservices Limited — the people who move cargo, manage trade, and build creative talent across Nigeria.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.mcmorenmultiservices.com/teams">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/pages/teams.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav class="nav" id="main-nav" aria-label="Main navigation">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo" aria-label="Mcmoren Multiservices Limited — Home"
+          style="display: flex; align-items: center; gap: 0.75rem;">
+          <div class="nav-logo-card"
+            style="width: 40px; height: 40px; border-radius: 50%; background: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+            <img src="assets/images/MM_logo.png" alt="Mcmoren Logo"
+              style="width: 28px; height: auto; object-fit: contain;">
+          </div>
+          <div>
+            <span class="nav__logo-main" style="display: block;">MCMOREN</span>
+            <span class="nav__logo-sub" style="display: block;">Multiservices Ltd</span>
+          </div>
+        </a>
+        <div class="nav__links" role="menubar">
+          <a href="index.html" class="nav__link">Home</a>
+          <a href="about.html" class="nav__link">About</a>
+          <a href="services.html" class="nav__link">Services</a>
+          <a href="teams.html" class="nav__link nav__link--active">Team</a>
+          <a href="media.html" class="nav__link">Media</a>
+          <a href="contact.html" class="nav__link">Contact</a>
+        </div>
+        <a href="contact.html" class="btn btn--primary btn--sm nav__cta">Get In Touch</a>
+        <button class="nav__hamburger" aria-label="Open navigation menu" aria-expanded="false"
+          aria-controls="mobile-menu">
+          <span class="nav__hamburger-line"></span><span class="nav__hamburger-line"></span><span
+            class="nav__hamburger-line"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="nav__mobile-overlay" id="mobile-menu" role="dialog" aria-modal="true">
+      <div class="nav__mobile-backdrop"></div>
+      <div class="nav__mobile-panel">
+        <a href="index.html" class="nav__mobile-link">Home</a>
+        <a href="about.html" class="nav__mobile-link">About</a>
+        <a href="services.html" class="nav__mobile-link">Services</a>
+        <a href="teams.html" class="nav__mobile-link">Team</a>
+        <a href="media.html" class="nav__mobile-link">Media</a>
+        <a href="contact.html" class="nav__mobile-link">Contact</a>
+        <div class="nav__mobile-cta"><a href="contact.html" class="btn btn--primary btn--full">Get In Touch</a></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner" aria-label="Page header">
+      <div class="page-banner__bg" data-parallax="0.2"
+        style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&auto=format&fit=crop&q=80');">
+      </div>
+      <div class="page-banner__overlay"></div>
+      <div class="container page-banner__content">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html" class="breadcrumb__item">Home</a><span
+            class="breadcrumb__sep">/</span><span class="breadcrumb__item breadcrumb__item--active"
+            aria-current="page">Our Team</span></nav>
+        <h1 class="page-banner__title">Our Team</h1>
+        <p class="page-banner__subtitle">The experienced professionals leading Mcmoren's operations, compliance,
+          creativity, and client relationships.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="team-heading">
+      <div class="container">
+        <div class="section__header">
+          <span class="overline reveal" data-delay="0">The People Behind The Work</span>
+          <h2 id="team-heading" class="reveal" data-delay="80">Leadership & Operations</h2>
+          <p class="section__subtitle reveal" data-delay="160">Our team brings depth of expertise and a shared
+            commitment to the TRICE values that define Mcmoren.</p>
+        </div>
+        <div class="team-grid" id="team-grid" style="margin-top: 3rem;" role="list" aria-live="polite">
+          <p id="team-loading"
+            style="text-align:center; padding:3rem 0; grid-column:1/-1; color:var(--color-text-muted);">Loading team
+            members…</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner" aria-labelledby="cta-team-heading" style="margin-bottom: 2rem;">
+      <div class="container cta-banner__content">
+        <h2 id="cta-team-heading" class="reveal">Join the Mcmoren Team</h2>
+        <p class="cta-banner__sub reveal" data-delay="100">We are always looking for talented, driven individuals who
+          share our commitment to excellence.</p>
+        <a href="contact.html" class="btn btn--primary btn--lg reveal" data-delay="200">Reach Out</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__main">
+      <div class="container">
+        <div class="footer__grid">
+          <div><a href="index.html"><span class="footer__logo-main">MCMOREN</span><span
+                class="footer__logo-sub">Multiservices Limited</span></a>
+            <p class="footer__tagline">Moving Cargo. Powering Industry. Connecting Markets.</p>
+          </div>
+          <div>
+            <h4 class="footer__col-title">Quick Links</h4>
+            <ul class="footer__links">
+              <li><a href="index.html" class="footer__link">Home</a></li>
+              <li><a href="about.html" class="footer__link">About</a></li>
+              <li><a href="services.html" class="footer__link">Services</a></li>
+              <li><a href="media.html" class="footer__link">Media</a></li>
+              <li><a href="contact.html" class="footer__link">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer__col-title">Services</h4>
+            <ul class="footer__links">
+              <li><a href="services.html#transport-logistics" class="footer__link">Transport & Logistics</a></li>
+              <li><a href="services.html#customs-freight" class="footer__link">Customs & Freight</a></li>
+              <li><a href="services.html#mcadur" class="footer__link">McAdur Imaginations</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer__col-title">Contact</h4>
+            <div class="footer__contact-item"><svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg><span>info@mcmorenmultiservices.com</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <div class="footer__bottom-inner">
+          <p class="footer__copyright">© 2025 Mcmoren Multiservices Limited.</p>
+          <p class="footer__credit">Developed by Olorundare Micheal</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/main.js"></script>
+  <script type="module">
+    import { initGSAP } from './assets/js/gsap-init.js';
+    async function loadTeam() {
+      const grid = document.getElementById('team-grid');
+      const loading = document.getElementById('team-loading');
+      try {
+        const res = await fetch('assets/data/team.json');
+        const members = await res.json();
+        loading.remove();
+        members.forEach((m) => {
+          const card = document.createElement('article');
+          card.className = 'team-card';
+          card.setAttribute('role', 'listitem');
+          const bio = m.bio.split('\n\n')[0];
+          const snippet = bio.length > 120 ? bio.substring(0, 120) + '…' : bio;
+          card.innerHTML = `
+            <div class="team-card__image-wrap">
+              <img src="${m.image}" alt="Photo of ${m.name}" loading="lazy" width="400" height="220" onerror="this.src='https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=400&auto=format&fit=crop&q=80'">
+              <div class="team-card__overlay"><p class="team-card__bio">${snippet}</p></div>
+            </div>
+            <div class="team-card__info">
+              <h3 class="team-card__name">${m.name}</h3>
+              <span class="team-card__role">${m.role}</span>
+              <div class="team-card__divider"></div>
+              <a href="team-detail.html?slug=${m.slug}" class="card__link" aria-label="View full profile for ${m.name}">View Profile <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+            </div>`;
+          grid.appendChild(card);
+        });
+        initGSAP();
+      } catch (err) {
+        loading.textContent = 'Could not load team members. Please try again later.';
+        console.error('Team load error:', err);
+      }
+    }
+    document.addEventListener('DOMContentLoaded', loadTeam);
+  </script>
+</body>
+
+</html>

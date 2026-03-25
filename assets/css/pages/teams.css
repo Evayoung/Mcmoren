@@ -1,0 +1,196 @@
+/* ==========================================================================
+   teams.css — Teams page and Team Detail page styles
+   Mcmoren Multiservices Limited
+   ========================================================================== */
+
+/* Teams grid */
+.team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.75rem;
+}
+
+@media (min-width: 560px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Team detail layout */
+.team-detail-layout {
+  display: grid;
+  gap: var(--spacing-lg);
+  align-items: flex-start;
+}
+
+@media (min-width: 900px) {
+  .team-detail-layout {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+/* Profile sidebar */
+.team-profile-card {
+  background-color: var(--color-card-bg);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
+  position: sticky;
+  top: calc(var(--nav-height) + 2rem);
+}
+
+.team-profile-card__photo {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  max-height: 380px;
+}
+
+.team-profile-card__info {
+  padding: 1.5rem;
+  border-top: 3px solid var(--color-accent);
+}
+
+.team-profile-card__name {
+  font-family: var(--font-heading);
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.25rem;
+}
+
+.team-profile-card__role {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  display: block;
+}
+
+.team-profile-card__social {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.team-profile-card__social a {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+  transition: var(--transition-base);
+}
+
+.team-profile-card__social a:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* Profile body */
+.team-profile-body {
+  background-color: var(--color-card-bg);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-border);
+}
+
+.team-profile-body__section-title {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.team-profile-body__section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: var(--color-border);
+}
+
+.team-profile-body__bio {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.team-profile-body__bio p + p {
+  margin-top: 1rem;
+}
+
+.responsibilities-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.responsibilities-list__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  padding: 1rem 1.25rem;
+  background-color: var(--color-bg);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--color-accent);
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.responsibilities-list__item svg {
+  width: 1rem;
+  height: 1rem;
+  color: var(--color-accent);
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+/* Not found state */
+.team-not-found {
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.team-not-found__emoji {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+/* Back link */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+  margin-bottom: 2rem;
+  transition: gap 0.2s ease;
+}
+
+.back-link:hover {
+  gap: 0.75rem;
+}

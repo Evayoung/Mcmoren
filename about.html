@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Mcmoren Multiservices Limited</title>
+  <meta name="description" content="Learn about Mcmoren Multiservices Limited — a Nigerian company with over 10 years of experience across logistics, energy services, and international trade.">
+  <meta name="keywords" content="about Mcmoren, Nigerian logistics company, oil gas services Nigeria, trade company Lagos">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.mcmorenmultiservices.com/about">
+  <meta property="og:title" content="About Us | Mcmoren Multiservices Limited">
+  <meta property="og:description" content="Learn about Mcmoren Multiservices Limited — a Nigerian company with over 10 years of experience across logistics, energy services, and international trade.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.mcmorenmultiservices.com/about">
+  <meta property="og:image" content="https://www.mcmorenmultiservices.com/assets/images/og-image.jpg">
+  <meta property="og:site_name" content="Mcmoren Multiservices Limited">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About Us | Mcmoren Multiservices Limited">
+  <meta name="twitter:description" content="Learn about Mcmoren Multiservices Limited — a Nigerian company with over 10 years of experience across logistics, energy services, and international trade.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/pages/about.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION (identical across all pages) ===== -->
+  <header>
+    <nav class="nav" id="main-nav" aria-label="Main navigation">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo" aria-label="Mcmoren Multiservices Limited — Home" style="display: flex; align-items: center; gap: 0.75rem;">
+          <div class="nav-logo-card" style="width: 40px; height: 40px; border-radius: 50%; background: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+            <img src="assets/images/MM_logo.png" alt="Mcmoren Logo" style="width: 28px; height: auto; object-fit: contain;">
+          </div>
+          <div>
+            <span class="nav__logo-main" style="display: block;">MCMOREN</span>
+            <span class="nav__logo-sub" style="display: block;">Multiservices Ltd</span>
+          </div>
+        </a>
+        <div class="nav__links" role="menubar">
+          <a href="index.html" class="nav__link" role="menuitem">Home</a>
+          <a href="about.html" class="nav__link nav__link--active" role="menuitem">About</a>
+          <a href="services.html" class="nav__link" role="menuitem">Services</a>
+          <a href="teams.html" class="nav__link" role="menuitem">Team</a>
+          <a href="media.html" class="nav__link" role="menuitem">Media</a>
+          <a href="contact.html" class="nav__link" role="menuitem">Contact</a>
+        </div>
+        <a href="contact.html" class="btn btn--primary btn--sm nav__cta">Get In Touch</a>
+        <button class="nav__hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+          <span class="nav__hamburger-line"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="nav__mobile-overlay" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+      <div class="nav__mobile-backdrop"></div>
+      <div class="nav__mobile-panel">
+        <a href="index.html" class="nav__mobile-link">Home</a>
+        <a href="about.html" class="nav__mobile-link">About</a>
+        <a href="services.html" class="nav__mobile-link">Services</a>
+        <a href="teams.html" class="nav__mobile-link">Team</a>
+        <a href="media.html" class="nav__mobile-link">Media</a>
+        <a href="contact.html" class="nav__mobile-link">Contact</a>
+        <div class="nav__mobile-cta"><a href="contact.html" class="btn btn--primary btn--full">Get In Touch</a></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== PAGE BANNER ===== -->
+    <section class="page-banner" aria-label="Page header">
+      <div class="page-banner__bg" data-parallax="0.2" style="background-image: url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1600&auto=format&fit=crop&q=80');"></div>
+      <div class="page-banner__overlay"></div>
+      <div class="container page-banner__content">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html" class="breadcrumb__item">Home</a>
+          <span class="breadcrumb__sep" aria-hidden="true">/</span>
+          <span class="breadcrumb__item breadcrumb__item--active" aria-current="page">About</span>
+        </nav>
+        <h1 class="page-banner__title">About Us</h1>
+        <p class="page-banner__subtitle">A Nigerian company built on reliability, integrity, and results.</p>
+      </div>
+    </section>
+
+    <!-- ===== OUR STORY ===== -->
+    <section class="section" id="our-story" aria-labelledby="story-heading">
+      <div class="container">
+        <div class="split">
+          <div class="reveal--left">
+            <img
+              src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=700&auto=format&fit=crop&q=80"
+              alt="Mcmoren logistics trucks loaded and ready for dispatch"
+              loading="lazy"
+              width="700"
+              height="480"
+              style="width:100%; border-radius: var(--radius-md); box-shadow: var(--shadow-lg); object-fit: cover; height: 420px;"
+            >
+          </div>
+          <div>
+            <span class="overline reveal" data-delay="0">Our Story</span>
+            <h2 id="story-heading" class="reveal" data-delay="100">Who We Are</h2>
+            <p class="reveal" style="color:var(--color-text-muted); margin-top:1rem; line-height:1.8;" data-delay="150">
+              Mcmoren Multiservices Limited is a Nigerian-registered company with active operations spanning three core divisions — logistics and haulage, oil and gas services, and international import and export trade. Founded on the principle that Nigerian businesses deserve a logistics and trade partner they can genuinely depend on, we have built our reputation through consistent delivery, honest communication, and an unwillingness to cut corners regardless of the complexity of the job.
+            </p>
+            <p class="reveal" style="color:var(--color-text-muted); margin-top:1rem; line-height:1.8;" data-delay="200">
+              Our team brings hands-on field experience across all three divisions, combining deep local market knowledge with the operational infrastructure to service both small businesses and large enterprise clients. From coordinating freight across Nigerian states to facilitating international trade compliance and supporting energy sector operations, Mcmoren exists to make complex operations simple for our clients.
+            </p>
+            <p class="reveal" style="color:var(--color-text-muted); margin-top:1rem; line-height:1.8;" data-delay="250">
+              We understand that the businesses who come to us are trusting us with things that matter — their cargo, their contracts, their reputation. That responsibility shapes everything we do, from how we hire to how we handle documentation to how we respond when something does not go to plan.
+            </p>
+            <div class="story__stats reveal" data-delay="300">
+              <div class="story__stat">
+                <strong class="story__stat-value">10+</strong>
+                <span class="story__stat-label">Years Operating</span>
+              </div>
+              <div class="story__stat">
+                <strong class="story__stat-value">3</strong>
+                <span class="story__stat-label">Core Divisions</span>
+              </div>
+              <div class="story__stat">
+                <strong class="story__stat-value">500+</strong>
+                <span class="story__stat-label">Shipments Completed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MISSION & VISION ===== -->
+    <section class="section section--white" id="mission-vision" aria-labelledby="mv-heading">
+      <div class="container">
+        <div class="section__header">
+          <span class="overline reveal" data-delay="0">Purpose & Direction</span>
+          <h2 id="mv-heading" class="reveal" data-delay="100">Mission & Vision</h2>
+        </div>
+        <div class="grid grid--2" style="margin-top:2rem;">
+          <div class="mv-card reveal" data-delay="0">
+            <div class="mv-card__icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+            </div>
+            <h3 class="mv-card__title">Our Mission</h3>
+            <p class="mv-card__text">To deliver dependable, end-to-end logistics, energy, and trade solutions to Nigerian businesses and beyond — built on a foundation of integrity, professional discipline, and a genuine commitment to client success. We exist to simplify the complex, move what matters, and power the operations that drive Nigeria forward.</p>
+          </div>
+          <div class="mv-card reveal" data-delay="150">
+            <div class="mv-card__icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            </div>
+            <h3 class="mv-card__title">Our Vision</h3>
+            <p class="mv-card__text">To become the most trusted multi-sector service company in Nigeria — recognised for our consistency, our people, and our ability to deliver across logistics, energy, and international trade at a standard that competes with the best in the world. We aim to be the partner Nigerian industry chooses first — every time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CORE VALUES ===== -->
+    <section class="section section--dark" id="values" aria-labelledby="values-heading">
+      <div class="container">
+        <div class="section__header">
+          <span class="overline reveal" data-delay="0">What We Stand For</span>
+          <h2 id="values-heading" class="text-white reveal" data-delay="100">Our Core Values</h2>
+        </div>
+        <div class="grid grid--3" style="gap:1rem; margin-top:3rem;">
+          <div class="feature-block reveal" data-delay="0">
+            <div class="feature-block__icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+            <h3 class="feature-block__title">Reliability</h3>
+            <p class="feature-block__body">When we commit to a delivery time, a pick-up slot, or a compliance deadline, we honour it. Our clients build their plans around our word, and we take that seriously every single day.</p>
+          </div>
+          <div class="feature-block reveal" data-delay="100">
+            <div class="feature-block__icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div>
+            <h3 class="feature-block__title">Integrity</h3>
+            <p class="feature-block__body">We do not take shortcuts with documentation, compliance, or reporting. Honest communication — even when the news is not good — is a non-negotiable standard across all our divisions.</p>
+          </div>
+          <div class="feature-block reveal" data-delay="200">
+            <div class="feature-block__icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+            <h3 class="feature-block__title">Precision</h3>
+            <p class="feature-block__body">From route planning to customs documentation, precision in execution prevents costly errors. We invest in training and systems that keep our operations accurate and consistent.</p>
+          </div>
+          <div class="feature-block reveal" data-delay="300">
+            <div class="feature-block__icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+            <h3 class="feature-block__title">Client First</h3>
+            <p class="feature-block__body">Every process, update, and decision is oriented around our client's best interests. We tailor our approach to each engagement rather than applying a one-size-fits-all model.</p>
+          </div>
+          <div class="feature-block reveal" data-delay="400">
+            <div class="feature-block__icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg></div>
+            <h3 class="feature-block__title">Safety</h3>
+            <p class="feature-block__body">Across our logistics fleet, oil and gas field operations, and import procedures, safety is not a checkbox — it is baked into our operational culture at every level.</p>
+          </div>
+          <div class="feature-block reveal" data-delay="500">
+            <div class="feature-block__icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div>
+            <h3 class="feature-block__title">Accountability</h3>
+            <p class="feature-block__body">We own our outcomes. When something goes wrong, we communicate clearly, take responsibility, and make it right. Our clients are never left wondering what happened or who is responsible.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US — FULL ===== -->
+    <section class="section" id="why-us" aria-labelledby="why-full-heading">
+      <div class="container">
+        <div class="section__header">
+          <span class="overline reveal" data-delay="0">Why Mcmoren</span>
+          <h2 id="why-full-heading" class="reveal" data-delay="100">Why Businesses Choose Us</h2>
+          <p class="section__subtitle reveal" data-delay="200">What we offer goes beyond a service agreement — it's a genuine operational partnership.</p>
+        </div>
+        <div class="grid grid--2" style="margin-top:3rem; gap: 2rem;">
+          <div class="reveal" data-delay="0">
+            <div style="display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:3rem; height:3rem; background:rgba(14, 165, 233,0.1); border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; color:var(--color-accent); flex-shrink:0; margin-top:0.2rem;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <h3 style="color:var(--color-primary); margin-bottom:0.5rem;">Nigerian Market Expertise</h3>
+                <p style="color:var(--color-text-muted); line-height:1.7; font-size:0.9375rem;">We have operated through Nigeria's complex route networks, port procedures, and regulatory environment for over a decade. This means we anticipate problems before they arise and resolve them faster when they do. Our local knowledge cannot be purchased or replicated by firms parachuting in from outside.</p>
+              </div>
+            </div>
+          </div>
+          <div class="reveal" data-delay="100">
+            <div style="display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:3rem; height:3rem; background:rgba(14, 165, 233,0.1); border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; color:var(--color-accent); flex-shrink:0; margin-top:0.2rem;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <div>
+                <h3 style="color:var(--color-primary); margin-bottom:0.5rem;">End-to-End Solutions</h3>
+                <p style="color:var(--color-text-muted); line-height:1.7; font-size:0.9375rem;">Our three-division model means a client importing raw materials from Europe can work with us for customs clearance, domestic haulage, and secondary supply chain coordination without involving three different companies. That integration saves time, reduces communication overhead, and keeps accountability unified.</p>
+              </div>
+            </div>
+          </div>
+          <div class="reveal" data-delay="200">
+            <div style="display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:3rem; height:3rem; background:rgba(14, 165, 233,0.1); border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; color:var(--color-accent); flex-shrink:0; margin-top:0.2rem;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <div>
+                <h3 style="color:var(--color-primary); margin-bottom:0.5rem;">Experienced Team</h3>
+                <p style="color:var(--color-text-muted); line-height:1.7; font-size:0.9375rem;">Our staff are not generalists handed a manual. They are field-experienced professionals with certifications, practical training, and operational records within each division. When your shipment is on the road or your cargo is at the port, you want people who have been there before.</p>
+              </div>
+            </div>
+          </div>
+          <div class="reveal" data-delay="300">
+            <div style="display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:3rem; height:3rem; background:rgba(14, 165, 233,0.1); border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; color:var(--color-accent); flex-shrink:0; margin-top:0.2rem;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+              </div>
+              <div>
+                <h3 style="color:var(--color-primary); margin-bottom:0.5rem;">Compliance & Documentation</h3>
+                <p style="color:var(--color-text-muted); line-height:1.7; font-size:0.9375rem;">Every waybill, customs declaration, and HSE report is handled with precision. We know the Nigerian regulatory landscape — the agencies, the timelines, the requirements — and we keep your operations fully compliant without adding administrative burden to your team.</p>
+              </div>
+            </div>
+          </div>
+          <div class="reveal" data-delay="400">
+            <div style="display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:3rem; height:3rem; background:rgba(14, 165, 233,0.1); border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; color:var(--color-accent); flex-shrink:0; margin-top:0.2rem;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.09-.43c.907.339 1.850.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div>
+                <h3 style="color:var(--color-primary); margin-bottom:0.5rem;">Reliable Communication</h3>
+                <p style="color:var(--color-text-muted); line-height:1.7; font-size:0.9375rem;">Good communication is how trust is maintained across distance and complexity. We provide regular status updates, responsive account management, and a direct line to whoever is managing your operation — not a call centre that does not know your file.</p>
+              </div>
+            </div>
+          </div>
+          <div class="reveal" data-delay="500">
+            <div style="display:flex; gap:1rem; align-items:flex-start;">
+              <div style="width:3rem; height:3rem; background:rgba(14, 165, 233,0.1); border-radius:var(--radius-sm); display:flex; align-items:center; justify-content:center; color:var(--color-accent); flex-shrink:0; margin-top:0.2rem;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+              </div>
+              <div>
+                <h3 style="color:var(--color-primary); margin-bottom:0.5rem;">Scalable Operations</h3>
+                <p style="color:var(--color-text-muted); line-height:1.7; font-size:0.9375rem;">Whether you are moving three pallets or three hundred containers, expanding a recurring contract, or ramping up for a seasonal peak, our infrastructure grows with your demand. We have the capacity planning and partnerships to scale up without dropping the ball on quality.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== OUR TEAM ===== -->
+    <section class="section section--white" id="team" aria-labelledby="team-heading">
+      <div class="container">
+        <div class="section__header">
+          <span class="overline reveal" data-delay="0">The People Behind the Work</span>
+          <h2 id="team-heading" class="reveal" data-delay="100">Meet Our Team</h2>
+          <p class="section__subtitle reveal" data-delay="200">Experienced professionals committed to delivering at the highest operational standard.</p>
+        </div>
+        <div class="team-grid" style="margin-top: 3rem;">
+          <!-- Card 1 — Segun Banji -->
+          <article class="team-card reveal" data-delay="0">
+            <div class="team-card__image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&auto=format&fit=crop&q=80"
+                alt="Segun Banji — Data Analyst and Digital Consultant"
+                loading="lazy"
+                width="400"
+                height="280"
+              >
+              <div class="team-card__overlay">
+                <p class="team-card__bio">Results-driven Data Analyst with a degree in Statistics and 7+ years specialising in business intelligence and logistics optimisation. Certified by Cisco Networking Academy, Dataleum, Sololearn, and SkillAhead Academy. Leading data analysis operations including truck movement monitoring, KPI reporting, fleet tracking, and data-driven route planning.</p>
+              </div>
+            </div>
+            <div class="team-card__info">
+              <h4 class="team-card__name">Segun Banji</h4>
+              <span class="team-card__role">Data Analyst &amp; Digital Consultant</span>
+              <div class="team-card__divider" aria-hidden="true"></div>
+              <div class="team-card__social">
+                <a href="#" aria-label="Segun Banji on LinkedIn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 placeholder -->
+          <article class="team-card reveal" data-delay="100">
+            <div class="team-card__image-wrap" style="background: linear-gradient(135deg, var(--color-primary), var(--color-bg-dark)); display:flex; align-items:center; justify-content:center;">
+              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              <div class="team-card__overlay">
+                <p class="team-card__bio">Details coming soon. We are growing our team of experienced professionals to deliver the highest operational standard across all divisions.</p>
+              </div>
+            </div>
+            <div class="team-card__info">
+              <h4 class="team-card__name">Team Member</h4>
+              <span class="team-card__role">Operations Manager</span>
+              <div class="team-card__divider" aria-hidden="true"></div>
+              <div class="team-card__social">
+                <a href="#" aria-label="Connect on LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 placeholder -->
+          <article class="team-card reveal" data-delay="200">
+            <div class="team-card__image-wrap" style="background: linear-gradient(135deg, var(--color-primary), var(--color-bg-dark)); display:flex; align-items:center; justify-content:center;">
+              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              <div class="team-card__overlay">
+                <p class="team-card__bio">Details coming soon. We are growing our team of experienced professionals to deliver the highest operational standard across all divisions.</p>
+              </div>
+            </div>
+            <div class="team-card__info">
+              <h4 class="team-card__name">Team Member</h4>
+              <span class="team-card__role">Logistics Coordinator</span>
+              <div class="team-card__divider" aria-hidden="true"></div>
+              <div class="team-card__social">
+                <a href="#" aria-label="Connect on LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 placeholder -->
+          <article class="team-card reveal" data-delay="300">
+            <div class="team-card__image-wrap" style="background: linear-gradient(135deg, var(--color-primary), var(--color-bg-dark)); display:flex; align-items:center; justify-content:center;">
+              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              <div class="team-card__overlay">
+                <p class="team-card__bio">Details coming soon. We are growing our team of experienced professionals to deliver the highest operational standard across all divisions.</p>
+              </div>
+            </div>
+            <div class="team-card__info">
+              <h4 class="team-card__name">Team Member</h4>
+              <span class="team-card__role">Trade &amp; Compliance Officer</span>
+              <div class="team-card__divider" aria-hidden="true"></div>
+              <div class="team-card__social">
+                <a href="#" aria-label="Connect on LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA STRIP ===== -->
+    <section class="cta-strip" aria-labelledby="cta-strip-heading">
+      <div class="container">
+        <h2 id="cta-strip-heading" class="reveal" data-delay="0">Have a project or shipment in mind? Let's talk.</h2>
+        <p class="reveal" data-delay="100">Our team is ready to understand your needs and build a plan that works for you.</p>
+        <a href="contact.html" class="btn btn--navy reveal" data-delay="200">Contact Our Team</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="footer__main">
+      <div class="container">
+        <div class="footer__grid">
+          <div>
+            <a href="index.html" aria-label="Mcmoren Multiservices Limited — Home">
+              <span class="footer__logo-main">MCMOREN</span>
+              <span class="footer__logo-sub">Multiservices Limited</span>
+            </a>
+            <p class="footer__tagline">Moving Cargo. Powering Industry. Connecting Markets. Your trusted Nigerian multiservice partner.</p>
+            <div class="footer__social" aria-label="Social media links">
+              <a href="#" class="footer__social-link" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+              <a href="#" class="footer__social-link" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+              <a href="#" class="footer__social-link" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+            </div>
+          </div>
+          <div>
+            <h4 class="footer__col-title">Quick Links</h4>
+            <ul class="footer__links">
+              <li><a href="index.html" class="footer__link">Home</a></li>
+              <li><a href="about.html" class="footer__link">About Us</a></li>
+              <li><a href="about.html#why-us" class="footer__link">Why Choose Us</a></li>
+              <li><a href="about.html#team" class="footer__link">Our Team</a></li>
+              <li><a href="contact.html" class="footer__link">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer__col-title">Services</h4>
+            <ul class="footer__links">
+              <li><a href="services/logistics.html" class="footer__link">Logistics & Haulage</a></li>
+              <li><a href="services/oil-gas.html" class="footer__link">Oil & Gas Services</a></li>
+              <li><a href="services/import-export.html" class="footer__link">Import & Export</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer__col-title">Contact</h4>
+            <div class="footer__contact-item"><svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg><span>14 Industrial Avenue, Apapa, Lagos, Nigeria</span></div>
+            <div class="footer__contact-item"><svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.09-.43c.907.339 1.850.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span>+234 800 000 0000</span></div>
+            <div class="footer__contact-item"><svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><span>info@mcmorenmultiservices.com</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <div class="footer__bottom-inner">
+          <p class="footer__copyright">© 2025 Mcmoren Multiservices Limited. All rights reserved.</p>
+          <p class="footer__credit">Developed by Olorundare Micheal</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/gsap-init.js"></script>
+</body>
+</html>
