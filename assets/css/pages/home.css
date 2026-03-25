@@ -26,11 +26,42 @@
 .hero__content {
   position: relative;
   z-index: 2;
-  padding: 4rem 0 6rem;
+  padding: 3rem 1.25rem 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  width: 100%;
+}
+
+/* Mobile-first: ensure content doesn't overflow horizontally */
+@media (max-width: 767px) {
+  .hero__content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .hero__headline {
+    font-size: 2rem;
+    padding: 0 0.5rem;
+  }
+  
+  .hero__subheadline {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+  
+  .hero__ctas {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+  
+  .hero__ctas .btn {
+    width: 100%;
+  }
 }
 
 .hero__badge {
@@ -169,13 +200,22 @@
 .stats-bar {
   background-color: var(--color-primary);
   border-top: 3px solid var(--color-accent);
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .stats-bar__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Mobile-first: single column stats on small screens */
+@media (max-width: 480px) {
+  .stats-bar__grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -341,8 +381,26 @@
    -------------------------------------------------------------------------- */
 .trust-banner {
   background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-light) 100%);
-  padding: 4rem 0;
+  padding: 2.5rem 1rem;
   text-align: center;
+}
+
+/* Mobile: stack trust badges in 2x2 grid */
+.trust-badges {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .trust-badges {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .trust-banner {
+    padding: 4rem 0;
+  }
 }
 
 .trust-banner__quote {
@@ -353,6 +411,7 @@
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.4;
+  padding: 0 0.5rem;
 }
 
 /* --------------------------------------------------------------------------
@@ -360,10 +419,16 @@
    -------------------------------------------------------------------------- */
 .cta-banner {
   background: linear-gradient(135deg, var(--color-bg-dark) 0%, var(--color-primary) 100%);
-  padding: 6rem 0;
+  padding: 4rem 1rem;
   position: relative;
   overflow: hidden;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .cta-banner {
+    padding: 6rem 0;
+  }
 }
 
 .cta-banner::before {
