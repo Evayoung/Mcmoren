@@ -174,11 +174,10 @@
     <!-- HERO — cinematic video background and clean typography -->
     <section class="hero" id="hero" aria-label="Hero">
       <div class="hero__bg" aria-hidden="true" style="position:absolute; inset:0; z-index:0; pointer-events:none;">
-        <!-- Background video — renders first, then gradient dims from above -->
+        <!-- Background video — renders first, then gradient dims from above (now hosted locally to bypass CDN 403 blocks) -->
         <video autoplay muted loop playsinline
           style="position:absolute; inset:0; z-index:1; width:100%; height:100%; object-fit:cover; opacity:0.55;">
-          <source src="https://videos.pexels.com/video-files/3629578/3629578-uhd_3840_2160_25fps.mp4" type="video/mp4">
-          <source src="https://assets.mixkit.co/videos/preview/mixkit-commercial-truck-driving-on-a-highway-at-night-42284-large.mp4" type="video/mp4">
+          <source src="assets/videos/hero-truck.mp4" type="video/mp4">
         </video>
         <!-- Dark colour tint — sits above video to keep text readable -->
         <div style="position:absolute; inset:0; z-index:2; background: linear-gradient(160deg, rgba(2,15,30,0.72) 0%, rgba(10,37,64,0.58) 55%, rgba(13,48,96,0.48) 100%);"></div>
