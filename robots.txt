@@ -4,9 +4,9 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://www.mcmorenmultiservices.com/sitemap.xml
+# Disallow private/system directories
+Disallow: /.github/
+Disallow: /.git/
 
-# Disallow admin/private areas (if any)
-# Disallow: /admin/
-# Disallow: /private/
+# Sitemap location
+Sitemap: https://www.mcmorenmultiservices.com/sitemap.xml

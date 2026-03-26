@@ -34,44 +34,86 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": "LocalBusiness",
+    "@id": "https://www.mcmorenmultiservices.com/#organization",
     "name": "Mcmoren Multiservices Limited",
+    "alternateName": "Mcmoren Nigeria",
     "url": "https://www.mcmorenmultiservices.com",
     "logo": "https://www.mcmorenmultiservices.com/assets/images/MM_logo.png",
-    "description": "Mcmoren Multiservices Limited — transport & logistics, customs brokerage & freight forwarding, and McAdur Imaginations fashion & carpentry. Nigeria's trusted multiservice company.",
+    "image": "https://www.mcmorenmultiservices.com/assets/images/MM_logo.png",
+    "description": "Mcmoren Multiservices Limited is a leading Nigerian multiservice company providing transport & logistics, customs brokerage & freight forwarding, and creative services through McAdur Imaginations. Serving Lagos, Nigeria and beyond.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "14 Industrial Avenue, Apapa",
       "addressLocality": "Lagos",
       "addressRegion": "Lagos State",
-      "addressCountry": "NG",
-      "postalCode": "101"
+      "addressCountry": "NG"
     },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+234-800-000-0000",
-      "contactType": "customer service",
-      "email": "info@mcmorenmultiservices.com",
-      "availableTime": {
+    "telephone": "+234-800-000-0000",
+    "email": "info@mcmorenmultiservices.com",
+    "openingHoursSpecification": [
+      {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
         "opens": "08:00",
         "closes": "18:00"
       }
+    ],
+    "areaServed": [
+      { "@type": "City", "name": "Lagos" },
+      { "@type": "State", "name": "Lagos State" },
+      { "@type": "Country", "name": "Nigeria" }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Mcmoren Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Transport & Logistics",
+            "description": "Nationwide road freight, last-mile delivery, container logistics, contract haulage, and fleet management across all key Nigerian corridors.",
+            "url": "https://www.mcmorenmultiservices.com/services/logistics.html",
+            "areaServed": "Nigeria"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Customs Brokerage & Freight Forwarding",
+            "description": "Expert customs clearance, Form M processing, international freight forwarding, and trade advisory for Nigerian import and export operations.",
+            "url": "https://www.mcmorenmultiservices.com/services/import-export.html",
+            "areaServed": "Nigeria"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Oil & Gas Logistics Support",
+            "description": "HSE-compliant logistics, equipment mobilisation, and expediting services for the Nigerian oil and gas sector.",
+            "url": "https://www.mcmorenmultiservices.com/services/oil-gas.html",
+            "areaServed": "Nigeria"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "McAdur Imaginations — Fashion & Carpentry",
+            "description": "Bespoke fashion design, custom carpentry, interior finishing, and skills training for Nigeria's creative industries.",
+            "url": "https://www.mcmorenmultiservices.com/services.html#mcadur",
+            "areaServed": "Nigeria"
+          }
+        }
+      ]
     },
     "sameAs": [
       "https://www.linkedin.com/company/mcmoren-multiservices",
       "https://www.facebook.com/mcmorenmultiservices",
       "https://www.instagram.com/mcmorenmultiservices"
-    ],
-    "areaServed": {
-      "@type": "Country",
-      "name": "Nigeria"
-    },
-    "serviceType": [
-      "Transport & Logistics",
-      "Customs Brokerage & Freight Forwarding",
-      "McAdur Imaginations (Fashion & Carpentry)"
     ]
   }
   </script>
