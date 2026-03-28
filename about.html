@@ -27,6 +27,13 @@
   <link rel="stylesheet" href="assets/css/pages/about.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+<style>    /* Animated banner slideshow */
+    .page-banner { position: relative; overflow: hidden; }
+    .banner-slide { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; animation: bannerFade 18s infinite; }
+    .banner-slide:nth-child(1) { animation-delay: 0s; }
+    .banner-slide:nth-child(2) { animation-delay: 6s; }
+    .banner-slide:nth-child(3) { animation-delay: 12s; }
+    @keyframes bannerFade { 0%{opacity:0} 5%{opacity:1} 33%{opacity:1} 38%{opacity:0} 100%{opacity:0} }</style>
 </head>
 <body>
 
@@ -35,8 +42,8 @@
     <nav class="nav" id="main-nav" aria-label="Main navigation">
       <div class="nav__inner">
         <a href="index.html" class="nav__logo" aria-label="Mcmoren Multiservices Limited — Home" style="display: flex; align-items: center; gap: 0.75rem;">
-          <div class="nav-logo-card" style="width: 40px; height: 40px; border-radius: 50%; background: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
-            <img src="assets/images/MM_logo.png" alt="Mcmoren Logo" style="width: 28px; height: auto; object-fit: contain;">
+          <div class="nav-logo-card" style="border-radius: 20px; padding: 4px 10px; background: rgba(255,255,255,0.92); display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,0.12); flex-shrink: 0; border: 1.5px solid rgba(14,165,233,0.4);">
+            <img src="assets/images/MM_logo.png" alt="Mcmoren Logo" style="width: 52px; height: auto; object-fit: contain;">
           </div>
           <div>
             <span class="nav__logo-main" style="display: block;">MCMOREN</span>
@@ -51,7 +58,7 @@
           <a href="media.html" class="nav__link" role="menuitem">Media</a>
           <a href="contact.html" class="nav__link" role="menuitem">Contact</a>
         </div>
-        <a href="contact.html" class="btn btn--primary btn--sm nav__cta">Get In Touch</a>
+        <a href="career.html" class="btn btn--primary btn--sm nav__cta">Career</a>
         <button class="nav__hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
           <span class="nav__hamburger-line"></span>
           <span class="nav__hamburger-line"></span>
@@ -68,7 +75,7 @@
         <a href="teams.html" class="nav__mobile-link">Team</a>
         <a href="media.html" class="nav__mobile-link">Media</a>
         <a href="contact.html" class="nav__mobile-link">Contact</a>
-        <div class="nav__mobile-cta"><a href="contact.html" class="btn btn--primary btn--full">Get In Touch</a></div>
+        <div class="nav__mobile-cta"><a href="career.html" class="btn btn--primary btn--full">Career</a></div>
       </div>
     </div>
   </header>
@@ -76,7 +83,9 @@
   <main>
     <!-- ===== PAGE BANNER ===== -->
     <section class="page-banner" aria-label="Page header">
-      <div class="page-banner__bg" data-parallax="0.2" style="background-image: url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1600&auto=format&fit=crop&q=80');"></div>
+      <div class="banner-slide" style="background-image: url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=1600&auto=format&fit=crop&q=80');"></div>
+      <div class="banner-slide" style="background-image: url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1600&auto=format&fit=crop&q=80');"></div>
+      <div class="banner-slide" style="background-image: url('https://images.unsplash.com/photo-1494412651409-8963ce7935a7?w=1600&auto=format&fit=crop&q=80');"></div>
       <div class="page-banner__overlay"></div>
       <div class="container page-banner__content">
         <nav class="breadcrumb" aria-label="Breadcrumb">

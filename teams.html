@@ -21,6 +21,13 @@
   <link rel="stylesheet" href="assets/css/pages/teams.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+<style>    /* Animated banner slideshow */
+    .page-banner { position: relative; overflow: hidden; }
+    .banner-slide { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; animation: bannerFade 18s infinite; }
+    .banner-slide:nth-child(1) { animation-delay: 0s; }
+    .banner-slide:nth-child(2) { animation-delay: 6s; }
+    .banner-slide:nth-child(3) { animation-delay: 12s; }
+    @keyframes bannerFade { 0%{opacity:0} 5%{opacity:1} 33%{opacity:1} 38%{opacity:0} 100%{opacity:0} }</style>
 </head>
 
 <body>
@@ -30,9 +37,9 @@
         <a href="index.html" class="nav__logo" aria-label="Mcmoren Multiservices Limited — Home"
           style="display: flex; align-items: center; gap: 0.75rem;">
           <div class="nav-logo-card"
-            style="width: 40px; height: 40px; border-radius: 50%; background: #ffffff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); flex-shrink: 0;">
+            style="border-radius: 20px; padding: 4px 10px; background: rgba(255,255,255,0.92); display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,0.12); flex-shrink: 0; border: 1.5px solid rgba(14,165,233,0.4);">
             <img src="assets/images/MM_logo.png" alt="Mcmoren Logo"
-              style="width: 28px; height: auto; object-fit: contain;">
+              style="width: 52px; height: auto; object-fit: contain;">
           </div>
           <div>
             <span class="nav__logo-main" style="display: block;">MCMOREN</span>
@@ -47,7 +54,7 @@
           <a href="media.html" class="nav__link">Media</a>
           <a href="contact.html" class="nav__link">Contact</a>
         </div>
-        <a href="contact.html" class="btn btn--primary btn--sm nav__cta">Get In Touch</a>
+        <a href="career.html" class="btn btn--primary btn--sm nav__cta">Career</a>
         <button class="nav__hamburger" aria-label="Open navigation menu" aria-expanded="false"
           aria-controls="mobile-menu">
           <span class="nav__hamburger-line"></span><span class="nav__hamburger-line"></span><span
@@ -64,16 +71,16 @@
         <a href="teams.html" class="nav__mobile-link">Team</a>
         <a href="media.html" class="nav__mobile-link">Media</a>
         <a href="contact.html" class="nav__mobile-link">Contact</a>
-        <div class="nav__mobile-cta"><a href="contact.html" class="btn btn--primary btn--full">Get In Touch</a></div>
+        <div class="nav__mobile-cta"><a href="career.html" class="btn btn--primary btn--full">Career</a></div>
       </div>
     </div>
   </header>
 
   <main>
     <section class="page-banner" aria-label="Page header">
-      <div class="page-banner__bg" data-parallax="0.2"
-        style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&auto=format&fit=crop&q=80');">
-      </div>
+      <div class="banner-slide" style="background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1600&auto=format&fit=crop&q=80');"></div>
+      <div class="banner-slide" style="background-image: url('https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=1600&auto=format&fit=crop&q=80');"></div>
+      <div class="banner-slide" style="background-image: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1600&auto=format&fit=crop&q=80');"></div>
       <div class="page-banner__overlay"></div>
       <div class="container page-banner__content">
         <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html" class="breadcrumb__item">Home</a><span
@@ -89,7 +96,7 @@
       <div class="container">
         <div class="section__header">
           <span class="overline reveal" data-delay="0">The People Behind The Work</span>
-          <h2 id="team-heading" class="reveal" data-delay="80">Leadership & Operations</h2>
+          <h2 id="team-heading" class="reveal" data-delay="80">Leadership &amp; Operations</h2>
           <p class="section__subtitle reveal" data-delay="160">Our team brings depth of expertise and a shared
             commitment to the TRICE values that define Mcmoren.</p>
         </div>
@@ -106,7 +113,7 @@
         <h2 id="cta-team-heading" class="reveal">Join the Mcmoren Team</h2>
         <p class="cta-banner__sub reveal" data-delay="100">We are always looking for talented, driven individuals who
           share our commitment to excellence.</p>
-        <a href="contact.html" class="btn btn--primary btn--lg reveal" data-delay="200">Reach Out</a>
+        <a href="career.html" class="btn btn--primary btn--lg reveal" data-delay="200">Apply Now</a>
       </div>
     </section>
   </main>
@@ -116,7 +123,7 @@
       <div class="container">
         <div class="footer__grid">
           <div><a href="index.html"><span class="footer__logo-main">MCMOREN</span><span
-                class="footer__logo-sub">Multiservices Limited</span></a>
+                class="footer__logo-sub">MultiServices Limited</span></a>
             <p class="footer__tagline">Moving Cargo. Powering Industry. Connecting Markets.</p>
           </div>
           <div>
@@ -132,9 +139,10 @@
           <div>
             <h4 class="footer__col-title">Services</h4>
             <ul class="footer__links">
-              <li><a href="services.html#transport-logistics" class="footer__link">Transport & Logistics</a></li>
-              <li><a href="services.html#customs-freight" class="footer__link">Customs & Freight</a></li>
-              <li><a href="services.html#mcadur" class="footer__link">McAdur Imaginations</a></li>
+              <li><a href="services/warehousing.html" class="footer__link">Warehousing</a></li>
+              <li><a href="services/customs-brokerage.html" class="footer__link">Customs &amp; Freight</a></li>
+              <li><a href="services/transport-logistics.html" class="footer__link">Transport &amp; Logistics</a></li>
+              <li><a href="services/fashion-carpentry.html" class="footer__link">Fashion &amp; Carpentry</a></li>
             </ul>
           </div>
           <div>
@@ -151,7 +159,7 @@
     <div class="footer__bottom">
       <div class="container">
         <div class="footer__bottom-inner">
-          <p class="footer__copyright">© 2025 Mcmoren Multiservices Limited.</p>
+          <p class="footer__copyright">© 2025 Mcmoren MultiServices Limited.</p>
           <p class="footer__credit">Developed by Olorundare Micheal</p>
         </div>
       </div>
@@ -169,12 +177,17 @@
         const members = await res.json();
         loading.remove();
         members.forEach((m) => {
-          const card = document.createElement('article');
-          card.className = 'team-card';
-          card.setAttribute('role', 'listitem');
+          const profileUrl = `team-detail.html?slug=${m.slug}`;
           const bio = m.bio.split('\n\n')[0];
           const snippet = bio.length > 120 ? bio.substring(0, 120) + '…' : bio;
-          card.innerHTML = `
+          // Wrap entire card in an anchor for full-card click
+          const link = document.createElement('a');
+          link.href = profileUrl;
+          link.className = 'team-card';
+          link.setAttribute('role', 'listitem');
+          link.setAttribute('aria-label', `View profile for ${m.name}`);
+          link.style.cssText = 'display:block; text-decoration:none; color:inherit;';
+          link.innerHTML = `
             <div class="team-card__image-wrap">
               <img src="${m.image}" alt="Photo of ${m.name}" loading="lazy" width="400" height="220" onerror="this.src='https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=400&auto=format&fit=crop&q=80'">
               <div class="team-card__overlay"><p class="team-card__bio">${snippet}</p></div>
@@ -183,9 +196,9 @@
               <h3 class="team-card__name">${m.name}</h3>
               <span class="team-card__role">${m.role}</span>
               <div class="team-card__divider"></div>
-              <a href="team-detail.html?slug=${m.slug}" class="card__link" aria-label="View full profile for ${m.name}">View Profile <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a>
+              <span class="card__link" aria-hidden="true">View Profile <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span>
             </div>`;
-          grid.appendChild(card);
+          grid.appendChild(link);
         });
         initGSAP();
       } catch (err) {
