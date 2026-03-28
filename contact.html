@@ -171,7 +171,7 @@
             <h3 class="enquiry-form-card__title">Send an Enquiry</h3>
             <p class="enquiry-form-card__sub">Fill in the form below and we'll respond within 24 hours.</p>
 
-            <form class="js-enquiry-form" id="enquiry-form" action="https://formspree.io/f/mqakevje" method="POST" novalidate autocomplete="on">
+            <form class="js-enquiry-form" id="enquiry-form" action="https://formspree.io/f/mqakevje" method="POST" autocomplete="on">
               <div class="js-form-fields">
                 <!-- Row 1: Name + Company -->
                 <div class="grid grid--2" style="gap:1rem;">
@@ -379,7 +379,7 @@
           <div>
             <a href="index.html" aria-label="Mcmoren Multiservices Limited — Home">
               <span class="footer__logo-main">MCMOREN</span>
-              <span class="footer__logo-sub">Multiservices Limited</span>
+              <span class="footer__logo-sub">MultiServices Limited</span>
             </a>
             <p class="footer__tagline">Moving Cargo. Powering Industry. Connecting Markets. Your trusted Nigerian multiservice partner.</p>
             <div class="footer__social" aria-label="Social media links">
@@ -401,15 +401,16 @@
           <div>
             <h4 class="footer__col-title">Services</h4>
             <ul class="footer__links">
-              <li><a href="services/logistics.html" class="footer__link">Logistics & Haulage</a></li>
-              <li><a href="services/oil-gas.html" class="footer__link">Oil & Gas Services</a></li>
-              <li><a href="services/import-export.html" class="footer__link">Import & Export</a></li>
+              <li><a href="services/warehousing.html" class="footer__link">Warehousing</a></li>
+              <li><a href="services/customs-brokerage.html" class="footer__link">Customs &amp; Freight</a></li>
+              <li><a href="services/transport-logistics.html" class="footer__link">Transport &amp; Logistics</a></li>
+              <li><a href="services/fashion-carpentry.html" class="footer__link">Fashion &amp; Carpentry</a></li>
             </ul>
           </div>
           <div>
             <h4 class="footer__col-title">Contact</h4>
             <div class="footer__contact-item"><svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg><span>14 Industrial Avenue, Apapa, Lagos, Nigeria</span></div>
-            <div class="footer__contact-item"><svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.09-.43c.907.339 1.850.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span>+234 800 000 0000</span></div>
+            <div class="footer__contact-item"><svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.56a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.09-.43c.907.339 1.850.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span>+234 813 872 0817</span></div>
             <div class="footer__contact-item"><svg class="footer__contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><span>info@mcmorenmultiservices.com</span></div>
           </div>
         </div>
@@ -418,7 +419,7 @@
     <div class="footer__bottom">
       <div class="container">
         <div class="footer__bottom-inner">
-          <p class="footer__copyright">© 2025 Mcmoren Multiservices Limited. All rights reserved.</p>
+          <p class="footer__copyright">© 2025 Mcmoren MultiServices Limited. All rights reserved.</p>
           <p class="footer__credit">Developed by Olorundare Micheal</p>
         </div>
       </div>
@@ -427,5 +428,33 @@
 
   <script type="module" src="assets/js/main.js"></script>
   <script type="module" src="assets/js/gsap-init.js"></script>
+  <script>
+    // Form submission via Formspree AJAX
+    const form = document.getElementById('enquiry-form');
+    const submitBtn = document.getElementById('submit-btn');
+    const formSuccess = document.getElementById('form-success');
+    
+    // We removed 'novalidate' from the form tag so native browser validation will block empty required fields.
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault(); // prevent redirect
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+      try {
+        const data = new FormData(form);
+        const res = await fetch(form.action, { method: 'POST', body: data, headers: { 'Accept': 'application/json' } });
+        if (res.ok) {
+          form.style.display = 'none';
+          formSuccess.style.display = 'block';
+        } else {
+          alert('Submission failed. Please try again.');
+        }
+      } catch (err) {
+        alert('Network error. Please check your connection.');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Enquiry';
+      }
+    });
+  </script>
 </body>
 </html>
