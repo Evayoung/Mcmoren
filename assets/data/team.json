@@ -1,101 +1,118 @@
 [
   {
-    "slug": "segun-banji",
-    "name": "Segun Banji",
-    "role": "Managing Director & CEO",
-    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
-    "bio": "Segun Banji is the founder and Managing Director of Mcmoren Multiservices Limited, a company he established with a vision to bridge the gap between world-class service delivery and the Nigerian business environment. With over two decades of operational experience spanning logistics, international trade facilitation, and business management, Segun has built Mcmoren into a trusted name across multiple industry sectors.\n\nHis leadership philosophy is grounded in the TRICE values that define the organisation — Trust, Reliability, Integrity, Customer Satisfaction, and Excellence. Under his direction, Mcmoren has grown from a small freight operation into a full-service multiservices company with active engagement across transport, customs brokerage, freight forwarding, fashion, and carpentry through its McAdur Imaginations subsidiary.\n\nSegun is deeply committed to developing Nigerian enterprises, empowering local talent, and delivering service standards that compete at an international level. He holds professional certifications in logistics management and international trade, and continues to drive the company's expansion into new sectors and markets.",
+    "slug": "gbolahan-akerele",
+    "name": "Gbolahan Oluseun Akerele",
+    "role": "Head of Operations (Transport & Logistics)",
+    "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=80",
+    "bio": "Gbolahan O. Akerele is a seasoned transport and logistics professional with over fifteen years of experience spanning international maritime logistics, shipping, rail, and road transportation. He currently serves as Head of Operations (Transport & Logistics) at McMoren MultiServices Limited, where he provides strategic direction, oversees operational performance, and drives efficiency across logistics and transport functions. A Chartered Fellow of the Chartered Institute of Logistics and Transport (CILT) Nigeria and a certified practitioner of CILT, United Kingdom, he is widely recognized for his analytical expertise and practical industry insight. His career includes significant experience with multinational organisations and complex projects, through which he has developed strong capabilities in shipping operations, transport systems, and integrated supply chain solutions. In addition to his corporate role, he is actively engaged in professional leadership and institutional development, contributing to policy dialogue, capacity building, and the advancement of the transport and logistics sector. He holds a Master of Science in Transport Management from Lagos State University and both Master’s and Bachelor’s degrees in Transport and Logistics from Ladoke Akintola University of Technology.",
     "responsibilities": [
-      "Overall strategic direction and long-term planning for Mcmoren Multiservices Limited",
-      "Leadership of executive and senior management teams across all business units",
-      "Client and partner relationship management at the highest level",
-      "Oversight of all logistics, customs, and freight forwarding operations",
-      "Governance of the McAdur Imaginations fashion and carpentry division",
-      "Business development, new market entry, and key account acquisition",
-      "Ensuring organisational alignment with the company's TRICE values",
-      "Financial oversight and accountability to stakeholders"
+      "Strategic direction for all transport and logistics operations",
+      "Overseeing operational performance and tracking KPIs",
+      "Driving efficiency across maritime, rail, and road logistics",
+      "Managing complex supply chain solutions and multinational projects",
+      "Contributing to professional leadership and policy dialogue in the sector"
     ],
     "linkedIn": "#",
     "featured": true
   },
   {
-    "slug": "amaka-okafor",
-    "name": "Amaka Okafor",
-    "role": "Head of Operations",
-    "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=80",
-    "bio": "Amaka Okafor oversees all operational activities across Mcmoren's logistics and customs divisions. She brings over 12 years of field experience in Nigerian port operations and freight management, ensuring every shipment is executed efficiently and in full compliance with Nigerian Customs Service regulations.",
-    "responsibilities": [
-      "Day-to-day operations management across all logistics corridors",
-      "Team supervision for field operations and port clearance staff",
-      "SLA management and client delivery performance reporting",
-      "Process optimisation and operational standards enforcement",
-      "Liaison with NCS, NPA, and relevant regulatory authorities"
-    ],
-    "linkedIn": "#",
-    "featured": false
-  },
-  {
-    "slug": "chukwuemeka-eze",
-    "name": "Chukwuemeka Eze",
-    "role": "Customs & Compliance Manager",
-    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=80",
-    "bio": "Chukwuemeka Eze is a certified customs broker and trade compliance expert with extensive knowledge of Nigerian import and export regulations. He manages all documentation, duty assessment, and agency liaisons to ensure Mcmoren's clients face zero compliance exposure.",
-    "responsibilities": [
-      "Management of all Form M, PAAR, and customs declaration filings",
-      "Coordination with SON, NAFDAC, NESREA for regulated imports",
-      "Duty optimisation and tariff classification advisory",
-      "Staff training on customs compliance and procedural updates",
-      "Risk assessment for new trade corridors and commodity types"
-    ],
-    "linkedIn": "#",
-    "featured": false
-  },
-  {
-    "slug": "fatima-ibrahim",
-    "name": "Fatima Ibrahim",
-    "role": "Head, McAdur Imaginations",
+    "slug": "ronke-akerele-adu",
+    "name": "Ronke Akerele-Adu",
+    "role": "Head of Operations (Fashion & Carpentry)",
     "image": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=500&auto=format&fit=crop&q=80",
-    "bio": "Fatima Ibrahim leads the McAdur Imaginations division — the creative heart of Mcmoren Multiservices. A trained fashion designer and textile expert, she oversees both production and training programmes in bespoke fashion and custom carpentry, developing skilled creatives across Nigeria.",
+    "bio": "Ronke Akerele-Adu oversees end-to-end production, quality assurance, and operational coordination across both divisions. She brings proven expertise in managing creative and technical teams, optimizing workflows, and ensuring the consistent delivery of high-quality products that meet client expectations. Her role combines strategic oversight with hands-on execution, contributing significantly to operational excellence and business growth.\n\nShe has developed her expertise through engagements with international organisations, as well as participation in world-class creative events and projects, shaping her innovative and quality-driven approach.\n\nRonke Akerele-Adu received professional training from Elder Berry Couture and is a certified fashion instructor accredited by First Technical University, Ibadan. She holds a Bachelor’s degree in Agricultural Economics from Ladoke Akintola University of Technology.",
     "responsibilities": [
-      "Creative direction and product quality for all McAdur bespoke fashion outputs",
-      "Management of fashion design and carpentry training programmes",
-      "Client consultation for custom garment and furniture commissions",
-      "Sourcing of materials and artisan partnerships",
-      "Building the McAdur brand in the creative economy"
+      "End-to-end production and quality assurance for creative divisions",
+      "Managing technical and creative teams for optimal workflows",
+      "Strategic oversight and hands-on execution of fashion products",
+      "Ensuring consistent delivery of high-quality craftsmanship",
+      "Liaising on world-class creative events and international projects"
     ],
     "linkedIn": "#",
-    "featured": false
+    "featured": true
   },
   {
-    "slug": "daniel-okonkwo",
-    "name": "Daniel Okonkwo",
-    "role": "Fleet & Logistics Coordinator",
-    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&auto=format&fit=crop&q=80",
-    "bio": "Daniel Okonkwo manages Mcmoren's nationwide fleet operations and inter-city freight scheduling. His expertise in route optimisation and fleet management ensures cargo moves efficiently from port to final destination, even across Nigeria's most challenging delivery corridors.",
+    "slug": "rasaq-ajibade",
+    "name": "Rasaq Ajibade",
+    "role": "Fleet Maintenance Manager",
+    "image": "https://images.unsplash.com/photo-1544717302-de2939b7ef71?w=500&auto=format&fit=crop&q=80",
+    "bio": "A dedicated and results-oriented Fleet Maintenance Manager with over 10 years of hands-on experience in fleet maintenance operations. Known for a strong work ethic and a proactive, selfless approach to ensuring optimal vehicle performance and operational efficiency.\n\nSkilled in implementing effective maintenance strategies, reducing downtime, and managing resources to support seamless logistics and transportation operations.",
     "responsibilities": [
-      "Fleet scheduling, dispatch, and real-time tracking coordination",
-      "Driver management, welfare, and compliance with transport regulations",
-      "Route planning for high-volume and time-critical freight movements",
-      "Vehicle maintenance oversight and fleet renewal planning",
-      "Partnership management with third-party transport providers"
+      "Inventory & Cost Control",
+      "Fleet Uptime & Availability",
+      "Preventive & Predictive Maintenance",
+      "Safety & Regulatory Compliance",
+      "Maintenance Logs, Data Tracking, and Reporting",
+      "Strong and Sustainable Relationships with Vendors and Market Stakeholders"
     ],
     "linkedIn": "#",
-    "featured": false
+    "featured": true
   },
   {
-    "slug": "ngozi-adeyemi",
-    "name": "Ngozi Adeyemi",
-    "role": "Client Relations Manager",
-    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=500&auto=format&fit=crop&q=80",
-    "bio": "Ngozi Adeyemi is the first point of contact for all Mcmoren clients, ensuring every engagement starts with clarity and confidence. She manages client onboarding, enquiry handling, and ongoing account management, translating complex logistics and trade requirements into clear, actionable plans.",
+    "slug": "segun-banji",
+    "name": "Segun Banji",
+    "role": "Data Analyst & Digital Consultant",
+    "image": "assets/images/banji.jpg",
+    "bio": "A results-driven Data Analyst and Digital Consultant with a degree in Statistics and over 7 years of experience specializing in business intelligence and logistics optimization. Proven expertise in leveraging data-driven tools and analytical techniques to enhance operational efficiency, streamline logistics processes, and support strategic decision-making.\n\nCertified in Data Analytics with credentials from Cisco Networking Academy, Dataleum, Sololearn, and SkillAhead Academy, reflecting a strong commitment to continuous learning and professional excellence.",
     "responsibilities": [
-      "Client enquiry management and first-response coordination",
-      "Onboarding new clients and briefing operations teams",
-      "Account management and regular service performance updates",
-      "Resolution of client concerns and escalations",
-      "Collecting and acting on client feedback for service improvement"
+      "Monitoring and optimizing truck movement to ensure timely and efficient deliveries",
+      "Conducting in-depth data analysis to improve logistics and supply chain efficiency",
+      "Coordinating digital systems for seamless logistics operations",
+      "Tracking performance metrics and developing KPI reports for continuous improvement",
+      "Providing data-driven decision support for route planning and resource allocation",
+      "Managing fleet real-time tracking systems for enhanced visibility and control"
     ],
     "linkedIn": "#",
-    "featured": false
+    "featured": true
+  },
+  {
+    "slug": "adu-victoria",
+    "name": "Adu Victoria",
+    "role": "Team Lead, Fashion Design & Training",
+    "image": "https://images.unsplash.com/photo-1523824922870-747156044B27?w=500&auto=format&fit=crop&q=80",
+    "bio": "Adu Victoria is a creative and versatile fashion designer specializing in designs for both men and women. She is also a dedicated fashion trainer and talent development expert, known for identifying and nurturing emerging creatives within the fashion industry.\n\nA graduate of McAdur Imaginations Fashion Academy, Victoria has further strengthened her expertise through additional training and certifications from reputable institutions. Her solid educational background, combined with years of hands-on industry experience, has positioned her as both an organizer and active participant in numerous fashion and business events.\n\nVictoria is passionate about excellence, creativity, and empowering individuals to build successful and sustainable careers in fashion.",
+    "responsibilities": [
+      "Aso Ebi & Bespoke Bridal Wear",
+      "Corporate Dress Design",
+      "Pattern Making & Fashion Detailing",
+      "Fashion Styling",
+      "Talent Mentoring",
+      "Fashion Training"
+    ],
+    "linkedIn": "#",
+    "featured": true
+  },
+  {
+    "slug": "mustapha-shade-monsurat",
+    "name": "Mustapha Shade Monsurat",
+    "role": "Team Lead, Customs Brokerage",
+    "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500&auto=format&fit=crop&q=80",
+    "bio": "Monsurat is a seasoned Customs Broker with over seven years of professional experience, serving as a strategic staff of the McMoren MultiServices Limited. She leads the company’s Customs Brokerage division, overseeing the smooth and compliant clearance of import and export cargoes across Nigerian ports.\n\nUnder her leadership, the team ensures accurate preparation and processing of shipping documentation, including Bills of Lading and customs declarations, classification of goods for tariff purposes, and assessment of duties and taxes. Mustapha liaises seamlessly with shipping lines, customs authorities, and regulatory agencies, providing expert guidance on trade compliance, risk management, and regulatory adherence. She also coordinates cargo inspection procedures and negotiates with stakeholders to resolve operational challenges, ensuring timely and efficient clearance of shipments.",
+    "responsibilities": [
+      "Smooth and compliant clearance of import and export cargoes",
+      "Preparation of shipping documents and customs declarations",
+      "Classification of goods for tariff purposes and duty assessment",
+      "Liaison with shipping lines, customs authorities, and regulatory agencies",
+      "Coordination of cargo inspection and operational challenge resolution",
+      "Expert guidance on trade compliance and risk management"
+    ],
+    "linkedIn": "#",
+    "featured": true
+  },
+  {
+    "slug": "bello-lanre-kazeem",
+    "name": "Bello Lanre Kazeem",
+    "role": "Team Lead, Freight Forwarding",
+    "image": "https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?w=500&auto=format&fit=crop&q=80",
+    "bio": "Bello Kazeem is an experienced freight forwarding professional with expertise in the oil and gas sector, containerized and general cargo, and import and export freight. He brings extensive knowledge in cargo haulage, end-to-end logistics, customs clearance, and the specialized handling of oversized and heavy shipments.\n\nHe oversees McMoren MultiServices Limited’s freight operations, including sea and road transportation for inland distribution, and manages customs clearance, regulatory compliance, warehousing, and inventory. Bello also provides door-to-door solutions and tailored project cargo services, ensuring timely, cost-effective, and reliable delivery. His leadership reinforces the company’s reputation as a trusted, client-focused logistics partner.\n\nKazeem has received professional training and certifications from leading educational and corporate institutions and holds a B.Sc. in Banking & Finance from Ekiti State University.",
+    "responsibilities": [
+      "Oversight of freight operations including sea and road transportation",
+      "Management of customs clearance and regulatory compliance",
+      "Specialized handling of oversized and heavy shipments",
+      "Warehousing and inventory management",
+      "Providing door-to-door solutions and project cargo services"
+    ],
+    "linkedIn": "#",
+    "featured": true
   }
 ]
