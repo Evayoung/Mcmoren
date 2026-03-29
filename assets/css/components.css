@@ -693,6 +693,7 @@
 .breadcrumb {
   display: flex;
   align-items: center;
+  flex-wrap: wrap; /* Ensure long breadcrumbs wrap on mobile */
   gap: 0.5rem;
   margin-bottom: 1rem;
 }
