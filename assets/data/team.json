@@ -114,5 +114,39 @@
     ],
     "linkedIn": "#",
     "featured": true
+  },
+  {
+    "slug": "ibrahim-babatunde-azeez",
+    "name": "Ibrahim Babatunde Azeez",
+    "role": "Team Lead, Fleet Operations",
+    "image": "https://images.unsplash.com/photo-1574041170753-461321db8cb0?w=500&auto=format&fit=crop&q=80",
+    "bio": "A results-driven Transport and Logistics Professional with over 5 years of experience in fleet operations, coordination, and performance optimization. Demonstrated ability to enhance operational efficiency, reduce costs, and lead high-performing teams.\n\nWorking with a dynamic team, Ibrahim plays a pivotal role in delivering efficient, reliable, and cost-effective transport operations.\n\nIbrahim is an advanced-trained Transport Manager, certified by the Lagos State University School of Transport and Logistics, and holds a Bachelor’s degree in Agricultural Economics from Ladoke Akintola University of Technology (LAUTECH). He has also completed several professional trainings and certifications from reputable transport and logistics bodies, further strengthening his expertise and industry competence.",
+    "responsibilities": [
+      "Managing and overseeing fleet operations for optimal efficiency",
+      "Planning and optimizing routes for timely and cost-effective deliveries",
+      "Coordinating vehicle maintenance schedules with full regulatory compliance",
+      "Supervising drivers and enforcing operational best practices",
+      "Analyzing operational data and generating actionable insights",
+      "Organizing training programs and collaborating across units"
+    ],
+    "linkedIn": "#",
+    "featured": true
+  },
+  {
+    "slug": "ibukun-banji",
+    "name": "Ibukun Banji",
+    "role": "Furniture Maker & Upholstery Specialist",
+    "image": "https://images.unsplash.com/photo-1605810230434-780c9d64d557?w=500&auto=format&fit=crop&q=80",
+    "bio": "A highly skilled and detail-oriented Furniture Maker and Upholstery Specialist with several years of hands-on experience in designing, fabricating, and restoring high-quality furniture. Ibukun is passionate about craftsmanship, combining creativity with technical expertise to deliver durable, functional, and aesthetically pleasing furniture solutions.\n\nIbukun received training from the Department of Building Technology at Yaba College of Technology, Lagos, as well as McAdur Imaginations Fashion Academy and other professional institutions. He also holds a Trade Test Certificate and completed a comprehensive apprenticeship in Carpentry and Upholstery at Next Level Furniture.",
+    "responsibilities": [
+      "Designing and producing bespoke furniture tailored to client preferences",
+      "Executing expert upholstery work with precision finishing",
+      "Utilizing modern and traditional carpentry tools for cutting and shaping",
+      "Performing furniture repairs and restoring structural integrity",
+      "Accurately measuring materials and estimating project costs",
+      "Coordinating carpentry training programs and apprenticeship development"
+    ],
+    "linkedIn": "#",
+    "featured": true
   }
 ]
