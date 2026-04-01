@@ -1,10 +1,10 @@
 [
   {
     "slug": "gbolahan-akerele",
-    "name": "Gbolahan Oluseun Akerele",
-    "role": "Head of Operations (Transport & Logistics)",
+    "name": "GBOLAHAN oluseun akerele",
+    "role": "Head of Operations<br>Transport & Logistics",
     "image": "assets/images/akerele.jpeg",
-    "bio": "Gbolahan O. Akerele is a seasoned transport and logistics professional with over fifteen years of experience spanning international maritime logistics, shipping, rail, and road transportation. He currently serves as Head of Operations (Transport & Logistics) at McMoren MultiServices Limited, where he provides strategic direction, oversees operational performance, and drives efficiency across logistics and transport functions. A Chartered Fellow of the Chartered Institute of Logistics and Transport (CILT) Nigeria and a certified practitioner of CILT, United Kingdom, he is widely recognized for his analytical expertise and practical industry insight. His career includes significant experience with multinational organisations and complex projects, through which he has developed strong capabilities in shipping operations, transport systems, and integrated supply chain solutions. In addition to his corporate role, he is actively engaged in professional leadership and institutional development, contributing to policy dialogue, capacity building, and the advancement of the transport and logistics sector. He holds a Master of Science in Transport Management from Lagos State University and both Master’s and Bachelor’s degrees in Transport and Logistics from Ladoke Akintola University of Technology.",
+    "bio": "Gbolahan O. Akerele is a seasoned transport and logistics professional with over fifteen years of experience spanning international maritime logistics, shipping, rail, and road transportation. He currently serves as Head of Operations (Transport & Logistics) at McMoren MultiServices Limited, where he provides strategic direction, oversees operational performance, and drives efficiency across logistics and transport functions. A Chartered Fellow of the Chartered Institute of Logistics and Transport (CILT) Nigeria and a certified practitioner of CILT, United Kingdom, he is widely recognized for his analytical expertise and practical industry insight. His career includes significant experience with multinational organisations and complex projects, through which he has developed strong capabilities in shipping operations, transport systems, and integrated supply chain solutions. In addition to his corporate role, he is actively engaged in professional leadership and institutional development, contributing to policy dialogue, capacity building, and the advancement of the transport and logistics sector. He holds a Master of Science in Transport Management from Lagos State University and both Master\u2019s and Bachelor\u2019s degrees in Transport and Logistics from Ladoke Akintola University of Technology.",
     "responsibilities": [
       "Strategic direction for all transport and logistics operations",
       "Overseeing operational performance and tracking KPIs",
@@ -17,10 +17,10 @@
   },
   {
     "slug": "ronke-akerele-adu",
-    "name": "Ronke Akerele-Adu",
-    "role": "Head of Operations (Fashion & Carpentry)",
+    "name": "RONKE akerele-adu",
+    "role": "Head of Operations<br>Fashion & Carpentry",
     "image": "assets/images/ronke.jpeg",
-    "bio": "Ronke Akerele-Adu oversees end-to-end production, quality assurance, and operational coordination across both divisions. She brings proven expertise in managing creative and technical teams, optimizing workflows, and ensuring the consistent delivery of high-quality products that meet client expectations. Her role combines strategic oversight with hands-on execution, contributing significantly to operational excellence and business growth.\n\nShe has developed her expertise through engagements with international organisations, as well as participation in world-class creative events and projects, shaping her innovative and quality-driven approach.\n\nRonke Akerele-Adu received professional training from Elder Berry Couture and is a certified fashion instructor accredited by First Technical University, Ibadan. She holds a Bachelor’s degree in Agricultural Economics from Ladoke Akintola University of Technology.",
+    "bio": "Ronke Akerele-Adu oversees end-to-end production, quality assurance, and operational coordination across both divisions. She brings proven expertise in managing creative and technical teams, optimizing workflows, and ensuring the consistent delivery of high-quality products that meet client expectations. Her role combines strategic oversight with hands-on execution, contributing significantly to operational excellence and business growth.\n\nShe has developed her expertise through engagements with international organisations, as well as participation in world-class creative events and projects, shaping her innovative and quality-driven approach.\n\nRonke Akerele-Adu received professional training from Elder Berry Couture and is a certified fashion instructor accredited by First Technical University, Ibadan. She holds a Bachelor\u2019s degree in Agricultural Economics from Ladoke Akintola University of Technology.",
     "responsibilities": [
       "End-to-end production and quality assurance for creative divisions",
       "Managing technical and creative teams for optimal workflows",
@@ -32,26 +32,9 @@
     "featured": true
   },
   {
-    "slug": "rasaq-ajibade",
-    "name": "Rasaq Ajibade",
-    "role": "Fleet Maintenance Manager",
-    "image": "https://images.unsplash.com/photo-1544717302-de2939b7ef71?w=500&auto=format&fit=crop&q=80",
-    "bio": "A dedicated and results-oriented Fleet Maintenance Manager with over 10 years of hands-on experience in fleet maintenance operations. Known for a strong work ethic and a proactive, selfless approach to ensuring optimal vehicle performance and operational efficiency.\n\nSkilled in implementing effective maintenance strategies, reducing downtime, and managing resources to support seamless logistics and transportation operations.",
-    "responsibilities": [
-      "Inventory & Cost Control",
-      "Fleet Uptime & Availability",
-      "Preventive & Predictive Maintenance",
-      "Safety & Regulatory Compliance",
-      "Maintenance Logs, Data Tracking, and Reporting",
-      "Strong and Sustainable Relationships with Vendors and Market Stakeholders"
-    ],
-    "linkedIn": "#",
-    "featured": true
-  },
-  {
     "slug": "segun-banji",
-    "name": "Segun Banji",
-    "role": "Data Analyst & Digital Consultant",
+    "name": "SEGUN banji",
+    "role": "Data Analyst<br>Digital Consultant",
     "image": "assets/images/bolaji.jpeg",
     "bio": "A results-driven Data Analyst and Digital Consultant with a degree in Statistics and over 7 years of experience specializing in business intelligence and logistics optimization. Proven expertise in leveraging data-driven tools and analytical techniques to enhance operational efficiency, streamline logistics processes, and support strategic decision-making.\n\nCertified in Data Analytics with credentials from Cisco Networking Academy, Dataleum, Sololearn, and SkillAhead Academy, reflecting a strong commitment to continuous learning and professional excellence.",
     "responsibilities": [
@@ -67,8 +50,8 @@
   },
   {
     "slug": "adu-victoria",
-    "name": "Adu Victoria",
-    "role": "Team Lead, Fashion Design & Training",
+    "name": "VICTORIA adu",
+    "role": "Team Lead<br>Fashion Design & Training",
     "image": "assets/images/victoria.jpeg",
     "bio": "Adu Victoria is a creative and versatile fashion designer specializing in designs for both men and women. She is also a dedicated fashion trainer and talent development expert, known for identifying and nurturing emerging creatives within the fashion industry.\n\nA graduate of McAdur Imaginations Fashion Academy, Victoria has further strengthened her expertise through additional training and certifications from reputable institutions. Her solid educational background, combined with years of hands-on industry experience, has positioned her as both an organizer and active participant in numerous fashion and business events.\n\nVictoria is passionate about excellence, creativity, and empowering individuals to build successful and sustainable careers in fashion.",
     "responsibilities": [
@@ -83,11 +66,27 @@
     "featured": true
   },
   {
+    "slug": "bello-lanre-kazeem",
+    "name": "KAZEEM lanre bello",
+    "role": "Team Lead<br>Freight Forwarding",
+    "image": "assets/images/kazeem.jpeg",
+    "bio": "Bello Kazeem is an experienced freight forwarding professional with expertise in the oil and gas sector, containerized and general cargo, and import and export freight. He brings extensive knowledge in cargo haulage, end-to-end logistics, customs clearance, and the specialized handling of oversized and heavy shipments.\n\nHe oversees McMoren MultiServices Limited\u2019s freight operations, including sea and road transportation for inland distribution, and manages customs clearance, regulatory compliance, warehousing, and inventory. Bello also provides door-to-door solutions and tailored project cargo services, ensuring timely, cost-effective, and reliable delivery. His leadership reinforces the company\u2019s reputation as a trusted, client-focused logistics partner.\n\nKazeem has received professional training and certifications from leading educational and corporate institutions and holds a B.Sc. in Banking & Finance from Ekiti State University.",
+    "responsibilities": [
+      "Oversight of freight operations including sea and road transportation",
+      "Management of customs clearance and regulatory compliance",
+      "Specialized handling of oversized and heavy shipments",
+      "Warehousing and inventory management",
+      "Providing door-to-door solutions and project cargo services"
+    ],
+    "linkedIn": "#",
+    "featured": true
+  },
+  {
     "slug": "mustapha-shade-monsurat",
-    "name": "Mustapha Shade Monsurat",
-    "role": "Team Lead, Customs Brokerage",
+    "name": "MONSURAT shade mustapha",
+    "role": "Team Lead<br>Customs Brokerage",
     "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500&auto=format&fit=crop&q=80",
-    "bio": "Monsurat is a seasoned Customs Broker with over seven years of professional experience, serving as a strategic staff of the McMoren MultiServices Limited. She leads the company’s Customs Brokerage division, overseeing the smooth and compliant clearance of import and export cargoes across Nigerian ports.\n\nUnder her leadership, the team ensures accurate preparation and processing of shipping documentation, including Bills of Lading and customs declarations, classification of goods for tariff purposes, and assessment of duties and taxes. Mustapha liaises seamlessly with shipping lines, customs authorities, and regulatory agencies, providing expert guidance on trade compliance, risk management, and regulatory adherence. She also coordinates cargo inspection procedures and negotiates with stakeholders to resolve operational challenges, ensuring timely and efficient clearance of shipments.",
+    "bio": "Monsurat is a seasoned Customs Broker with over seven years of professional experience, serving as a strategic staff of the McMoren MultiServices Limited. She leads the company\u2019s Customs Brokerage division, overseeing the smooth and compliant clearance of import and export cargoes across Nigerian ports.\n\nUnder her leadership, the team ensures accurate preparation and processing of shipping documentation, including Bills of Lading and customs declarations, classification of goods for tariff purposes, and assessment of duties and taxes. Mustapha liaises seamlessly with shipping lines, customs authorities, and regulatory agencies, providing expert guidance on trade compliance, risk management, and regulatory adherence. She also coordinates cargo inspection procedures and negotiates with stakeholders to resolve operational challenges, ensuring timely and efficient clearance of shipments.",
     "responsibilities": [
       "Smooth and compliant clearance of import and export cargoes",
       "Preparation of shipping documents and customs declarations",
@@ -100,27 +99,28 @@
     "featured": true
   },
   {
-    "slug": "bello-lanre-kazeem",
-    "name": "Bello Lanre Kazeem",
-    "role": "Team Lead, Freight Forwarding",
-    "image": "https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?w=500&auto=format&fit=crop&q=80",
-    "bio": "Bello Kazeem is an experienced freight forwarding professional with expertise in the oil and gas sector, containerized and general cargo, and import and export freight. He brings extensive knowledge in cargo haulage, end-to-end logistics, customs clearance, and the specialized handling of oversized and heavy shipments.\n\nHe oversees McMoren MultiServices Limited’s freight operations, including sea and road transportation for inland distribution, and manages customs clearance, regulatory compliance, warehousing, and inventory. Bello also provides door-to-door solutions and tailored project cargo services, ensuring timely, cost-effective, and reliable delivery. His leadership reinforces the company’s reputation as a trusted, client-focused logistics partner.\n\nKazeem has received professional training and certifications from leading educational and corporate institutions and holds a B.Sc. in Banking & Finance from Ekiti State University.",
+    "slug": "rasaq-ajibade",
+    "name": "RAZAQ ajibade",
+    "role": "Manager<br>Fleet Maintenance",
+    "image": "https://images.unsplash.com/photo-1544717302-de2939b7ef71?w=500&auto=format&fit=crop&q=80",
+    "bio": "A dedicated and results-oriented Fleet Maintenance Manager with over 10 years of hands-on experience in fleet maintenance operations. Known for a strong work ethic and a proactive, selfless approach to ensuring optimal vehicle performance and operational efficiency.\n\nSkilled in implementing effective maintenance strategies, reducing downtime, and managing resources to support seamless logistics and transportation operations.",
     "responsibilities": [
-      "Oversight of freight operations including sea and road transportation",
-      "Management of customs clearance and regulatory compliance",
-      "Specialized handling of oversized and heavy shipments",
-      "Warehousing and inventory management",
-      "Providing door-to-door solutions and project cargo services"
+      "Inventory & Cost Control",
+      "Fleet Uptime & Availability",
+      "Preventive & Predictive Maintenance",
+      "Safety & Regulatory Compliance",
+      "Maintenance Logs, Data Tracking, and Reporting",
+      "Strong and Sustainable Relationships with Vendors and Market Stakeholders"
     ],
     "linkedIn": "#",
     "featured": true
   },
   {
     "slug": "ibrahim-babatunde-azeez",
-    "name": "Ibrahim Babatunde Azeez",
-    "role": "Team Lead, Fleet Operations",
+    "name": "IBRAHIM azeez babatunde",
+    "role": "Team Lead<br>Fleet Operations",
     "image": "assets/images/azeez.jpeg",
-    "bio": "A results-driven Transport and Logistics Professional with over 5 years of experience in fleet operations, coordination, and performance optimization. Demonstrated ability to enhance operational efficiency, reduce costs, and lead high-performing teams.\n\nWorking with a dynamic team, Ibrahim plays a pivotal role in delivering efficient, reliable, and cost-effective transport operations.\n\nIbrahim is an advanced-trained Transport Manager, certified by the Lagos State University School of Transport and Logistics, and holds a Bachelor’s degree in Agricultural Economics from Ladoke Akintola University of Technology (LAUTECH). He has also completed several professional trainings and certifications from reputable transport and logistics bodies, further strengthening his expertise and industry competence.",
+    "bio": "A results-driven Transport and Logistics Professional with over 5 years of experience in fleet operations, coordination, and performance optimization. Demonstrated ability to enhance operational efficiency, reduce costs, and lead high-performing teams.\n\nWorking with a dynamic team, Ibrahim plays a pivotal role in delivering efficient, reliable, and cost-effective transport operations.\n\nIbrahim is an advanced-trained Transport Manager, certified by the Lagos State University School of Transport and Logistics, and holds a Bachelor\u2019s degree in Agricultural Economics from Ladoke Akintola University of Technology (LAUTECH). He has also completed several professional trainings and certifications from reputable transport and logistics bodies, further strengthening his expertise and industry competence.",
     "responsibilities": [
       "Managing and overseeing fleet operations for optimal efficiency",
       "Planning and optimizing routes for timely and cost-effective deliveries",
@@ -134,8 +134,8 @@
   },
   {
     "slug": "ibukun-banji",
-    "name": "Ibukun Banji",
-    "role": "Furniture Maker & Upholstery Specialist",
+    "name": "IBUKUN banji",
+    "role": "Specialist & Trainer<br>Carpentry and Upholstery",
     "image": "https://images.unsplash.com/photo-1605810230434-780c9d64d557?w=500&auto=format&fit=crop&q=80",
     "bio": "A highly skilled and detail-oriented Furniture Maker and Upholstery Specialist with several years of hands-on experience in designing, fabricating, and restoring high-quality furniture. Ibukun is passionate about craftsmanship, combining creativity with technical expertise to deliver durable, functional, and aesthetically pleasing furniture solutions.\n\nIbukun received training from the Department of Building Technology at Yaba College of Technology, Lagos, as well as McAdur Imaginations Fashion Academy and other professional institutions. He also holds a Trade Test Certificate and completed a comprehensive apprenticeship in Carpentry and Upholstery at Next Level Furniture.",
     "responsibilities": [
