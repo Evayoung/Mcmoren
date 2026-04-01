@@ -170,13 +170,16 @@ const form = (() => {
   }
 
   function showSuccess(formEl) {
-    // Hide form fields
-    const fields = formEl.querySelector('.js-form-fields');
-    if (fields) fields.style.display = 'none';
-
-    // Show success
-    const successEl = formEl.querySelector('.form__success');
-    if (successEl) successEl.classList.add('form__success--visible');
+    // Replace the entire form interior to guarantee the success state rendering
+    formEl.innerHTML = `
+      <div class="form__success form__success--visible" role="status" aria-live="polite" style="display:flex;">
+        <div class="form__success-icon" aria-hidden="true" style="margin-bottom:1rem;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+        </div>
+        <h3 style="color:var(--color-primary); margin-top:0.5rem; font-size:1.5rem;">Enquiry Received!</h3>
+        <p style="color:var(--color-text-muted); font-size:1rem; line-height:1.6; max-width:400px; margin:0 auto;">Thank you &mdash; we'll be in touch within 24 hours. Our team looks forward to learning about your requirements.</p>
+      </div>
+    `;
   }
 
   // 5. Init
